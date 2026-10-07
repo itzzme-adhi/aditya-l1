@@ -1,0 +1,1652 @@
+{
+  "schemaVersion": 2,
+  "defaultLanguage": "en",
+  "languages": [
+    {
+      "id": "en",
+      "label": "EN"
+    },
+    {
+      "id": "ta",
+      "label": "தமிழ்"
+    }
+  ],
+  "sources": [
+    {
+      "id": "isro-overview",
+      "url": "https://www.isro.gov.in/ISRO_EN/Aditya_L1.html"
+    },
+    {
+      "id": "isro-orbit",
+      "url": "https://www.isro.gov.in/Aditya_L1_Mission_Completion_of_First_Halo_Orbit.html"
+    },
+    {
+      "id": "nasa-weather",
+      "url": "https://science.nasa.gov/heliophysics/focus-areas/space-weather/"
+    },
+    {
+      "id": "nasa-effects",
+      "url": "https://sdo.gsfc.nasa.gov/mission/spaceweather.php"
+    },
+    {
+      "id": "nasa-processes",
+      "url": "https://science.nasa.gov/heliophysics/focus-areas/"
+    },
+    {
+      "id": "isro-flight",
+      "url": "https://www.isro.gov.in/media_isro/pdf/AdityaL1_Mission_Brochure.pdf"
+    },
+    {
+      "id": "isro-halo",
+      "url": "https://www.isro.gov.in/halo-orbit-insertion-adtya-l1.html"
+    },
+    {
+      "id": "nasa-lagrange",
+      "url": "https://science.nasa.gov/solar-system/resources/faq/what-are-lagrange-points/"
+    },
+    {
+      "id": "isro-timeline",
+      "url": "https://www.isro.gov.in/Aditya_L1.html?timeline=timeline"
+    },
+    {
+      "id": "isro-payloads",
+      "url": "https://www.isro.gov.in/media_isro/pdf/Aditya_L1_Booklet.pdf"
+    },
+    {
+      "id": "iia-velc",
+      "url": "https://www.iiap.res.in/projects/velc/"
+    },
+    {
+      "id": "spl-papa",
+      "url": "https://www.spl.gov.in/SPLv2/index.php/advanced-technologies/aditya-l1.html"
+    },
+    {
+      "id": "isro-images",
+      "url": "https://www.isro.gov.in/SUIT_Aditya-L1_Captures_SolarFlare.html"
+    }
+  ],
+  "verification": [
+    {
+      "factId": "launch-mass",
+      "status": "RESOLVED",
+      "value": 1480.7,
+      "unit": "kg",
+      "reason": "ISRO PSLV-C57 mission brochure, page 2, specifies spacecraft mass 1480.7 kg. This replaces the brief’s approximate 1475 kg.",
+      "source": "isro-flight"
+    }
+  ],
+  "ui": {
+    "en": {
+      "title": "Aditya-L1 — A journey towards understanding our Sun",
+      "brand": "ADITYA-L1",
+      "edition": "WORKSHOP 42 / ISRO EXPO",
+      "skip": "Skip to the story",
+      "language": "Choose language",
+      "depth": "Choose reading depth",
+      "quick": "Quick view",
+      "deep": "Deep dive",
+      "deeper": "A little deeper",
+      "navigation": "Story chapters",
+      "progress": "Story progress",
+      "loading": "Preparing your journey",
+      "ready": "Ready to explore",
+      "start": "Begin the journey",
+      "scroll": "Scroll to discover",
+      "analogy": "Think of it this way",
+      "chapter": "CHAPTER",
+      "source": "Source: ISRO",
+      "footer": "Workshop 42 — ISRO Expo",
+      "phase": "PHASE 02 / OUR LIVING STAR",
+      "statusQuick": "Quick view selected. Short explanations are visible.",
+      "statusDeep": "Deep dive selected. Extra detail is now visible.",
+      "statusLanguage": "English selected.",
+      "note": "An independent educational experience.",
+      "art": "Artist’s impression · not to scale",
+      "sourceNASA": "Source: NASA",
+      "effects": "A connection to everyday life",
+      "sceneDescription": "Illustrated Sun with a glowing orange surface and a field of stars.",
+      "staticNotice": "Still illustration. The full story is available below.",
+      "flight": "Flight sequence",
+      "previous": "Previous event",
+      "next": "Next event",
+      "allEvents": "Read the complete flight sequence",
+      "event": "Event",
+      "flightHint": "Scroll to launch, or use the event buttons.",
+      "flightArt": "Simplified model · distances and animation speed are not to scale",
+      "plannedTime": "Planned time after PS1 ignition",
+      "seconds": "seconds",
+      "skipFlight": "Skip the launch animation",
+      "sun": "Sun",
+      "earth": "Earth",
+      "pointSelector": "Choose a Lagrange point",
+      "diagram": "Sun–Earth Lagrange points, schematic top view. L1 is between the Sun and Earth; L2 beyond Earth; L3 beyond the Sun; L4 ahead of Earth and L5 behind.",
+      "diagramNote": "Schematic top view. Sizes and distances are exaggerated for clarity.",
+      "routeNote": "Illustrative route, not a flight reconstruction.",
+      "journeyStages": "Stages of the journey",
+      "haloNote": "Illustrative 3D loop. Scroll to follow the spacecraft; the loop is not to scale.",
+      "haloView": "Halo orbit viewing angle",
+      "front": "Front view",
+      "tilted": "Tilted view",
+      "side": "Side view",
+      "orbitLabel": "L1 · no physical object here",
+      "sourceBoth": "Sources: ISRO and NASA",
+      "haloDiagram": "A tilted loop around L1 with a spacecraft marker. L1 is a location, not a planet.",
+      "journeyDiagram": "A schematic path from Earth through widening loops towards L1.",
+      "viewer": "Explore the satellite",
+      "dragHint": "Drag the model to rotate. When this area is focused, use the arrow keys. Choose a numbered marker or an instrument below.",
+      "staticHint": "Choose a numbered marker or instrument to explore the schematic.",
+      "rotateLeft": "Rotate left",
+      "rotateRight": "Rotate right",
+      "resetView": "Reset view",
+      "instrumentList": "Choose an instrument",
+      "openInstrument": "Explore instrument",
+      "modelNote": "Teaching model: shapes, instrument positions and sizes are simplified.",
+      "memory": "2 cameras + 2 X-ray detectors + 2 particle counters + 1 magnet-meter = 7 eyes",
+      "memoryNote": "A memory aid: some instruments do more than take pictures or count particles.",
+      "madeIndia": "All seven payloads were developed in India by institutes and ISRO centres working together.",
+      "payloadDeep": "How it works",
+      "payloadAnalogy": "Think of it this way",
+      "continueEarth": "Continue to Earth →"
+    },
+    "ta": {
+      "title": "ஆதித்யா-L1 — நம் சூரியனை அறியும் பயணம்",
+      "brand": "ஆதித்யா-L1",
+      "edition": "WORKSHOP 42 / இஸ்ரோ கண்காட்சி",
+      "skip": "கதைக்குச் செல்லவும்",
+      "language": "மொழியைத் தேர்ந்தெடுக்கவும்",
+      "depth": "வாசிப்பு அளவைத் தேர்ந்தெடுக்கவும்",
+      "quick": "சுருக்கமாக",
+      "deep": "விரிவாக",
+      "deeper": "இன்னும் கொஞ்சம் தெரிந்துகொள்வோம்",
+      "navigation": "கதையின் பகுதிகள்",
+      "progress": "வாசிப்பின் முன்னேற்றம்",
+      "loading": "உங்கள் பயணம் தயாராகிறது",
+      "ready": "பயணத்திற்குத் தயார்",
+      "start": "பயணத்தைத் தொடங்குங்கள்",
+      "scroll": "கீழே நகர்த்திப் பாருங்கள்",
+      "analogy": "இப்படிக் கற்பனை செய்யுங்கள்",
+      "chapter": "பகுதி",
+      "source": "ஆதாரம்: இஸ்ரோ",
+      "footer": "Workshop 42 — இஸ்ரோ கண்காட்சி",
+      "phase": "கட்டம் 02 / நம் சூரியன்",
+      "statusQuick": "சுருக்கமான விளக்கங்கள் காட்டப்படுகின்றன.",
+      "statusDeep": "கூடுதல் விவரங்களும் இப்போது காட்டப்படுகின்றன.",
+      "statusLanguage": "தமிழ் தேர்ந்தெடுக்கப்பட்டது.",
+      "note": "கல்விக்காக உருவாக்கப்பட்ட தனித்த முயற்சி.",
+      "art": "கற்பனைக் காட்சி · அளவுகள் உண்மையான விகிதத்தில் இல்லை",
+      "sourceNASA": "ஆதாரம்: நாசா",
+      "effects": "அன்றாட வாழ்வுடன் ஒரு தொடர்பு",
+      "sceneDescription": "ஒளிரும் ஆரஞ்சு நிறப் பரப்புடன் சூரியனும் பின்னணியில் விண்மீன்களும் கொண்ட விளக்கக் காட்சி.",
+      "staticNotice": "நிலையான விளக்கக் காட்சி. முழுக் கதையையும் கீழே படிக்கலாம்.",
+      "flight": "ஏவுதல் நிகழ்வுகள்",
+      "previous": "முந்தைய நிகழ்வு",
+      "next": "அடுத்த நிகழ்வு",
+      "allEvents": "முழு ஏவுதல் வரிசையையும் படிக்கவும்",
+      "event": "நிகழ்வு",
+      "flightHint": "ஏவுதலைக் காண கீழே நகர்த்துங்கள் அல்லது நிகழ்வு பொத்தான்களைப் பயன்படுத்துங்கள்.",
+      "flightArt": "எளிய மாதிரி · தொலைவுகளும் அசைவு வேகமும் உண்மையான விகிதத்தில் இல்லை",
+      "plannedTime": "PS1 இயக்கம் தொடங்கியதிலிருந்து திட்டமிடப்பட்ட நேரம்",
+      "seconds": "விநாடிகள்",
+      "skipFlight": "ஏவுதல் அசைவைக் கடந்து செல்லவும்",
+      "sun": "சூரியன்",
+      "earth": "பூமி",
+      "pointSelector": "ஒரு லாக்ராஞ்ச் புள்ளியைத் தேர்ந்தெடுக்கவும்",
+      "diagram": "சூரியன்–பூமி லாக்ராஞ்ச் புள்ளிகளின் எளிய மேல்நோக்குக் காட்சி. L1 சூரியனுக்கும் பூமிக்கும் இடையில்; L2 பூமிக்கு அப்பால்; L3 சூரியனுக்கு அப்பால்; L4 பூமிக்கு முன்னால்; L5 பின்னால்.",
+      "diagramNote": "எளிய மேல்நோக்குக் காட்சி. தெளிவுக்காக அளவுகளும் இடைவெளிகளும் மாற்றப்பட்டுள்ளன.",
+      "routeNote": "விளக்கத்திற்கான பாதை; உண்மையான பறப்புப் பாதையின் மறுஉருவாக்கம் அல்ல.",
+      "journeyStages": "பயணத்தின் படிகள்",
+      "haloNote": "விளக்கத்திற்கான முப்பரிமாண வளையம். விண்கலத்தைப் பின்தொடர கீழே நகர்த்துங்கள். அளவுகள் உண்மையான விகிதத்தில் இல்லை.",
+      "haloView": "ஹேலோ சுற்றுப்பாதையின் பார்வைக் கோணம்",
+      "front": "நேர்ப் பார்வை",
+      "tilted": "சாய்ந்த பார்வை",
+      "side": "பக்கப் பார்வை",
+      "orbitLabel": "L1 · இங்கே ஒரு பொருள் இல்லை",
+      "sourceBoth": "ஆதாரங்கள்: இஸ்ரோ மற்றும் நாசா",
+      "haloDiagram": "L1-ஐச் சுற்றிய சாய்ந்த வளையமும் விண்கலக் குறியீடும். L1 ஒரு இடம்; கோள் அல்ல.",
+      "journeyDiagram": "பூமியிலிருந்து விரிவடையும் வளையங்கள் வழியாக L1-ஐ நோக்கிச் செல்லும் எளிய பாதை.",
+      "viewer": "விண்கலத்தை ஆராயுங்கள்",
+      "dragHint": "மாதிரியை இழுத்துச் சுழற்றுங்கள். இந்தப் பகுதியைத் தேர்ந்தெடுத்தபின் அம்புக்குறி விசைகளையும் பயன்படுத்தலாம். எண் குறியையோ கீழுள்ள கருவியையோ தேர்ந்தெடுங்கள்.",
+      "staticHint": "விளக்கப் படத்தில் உள்ள எண் குறியையோ கருவியையோ தேர்ந்தெடுத்து அறியுங்கள்.",
+      "rotateLeft": "இடப்புறம் சுழற்று",
+      "rotateRight": "வலப்புறம் சுழற்று",
+      "resetView": "பார்வையை மீட்டமை",
+      "instrumentList": "ஒரு கருவியைத் தேர்ந்தெடுக்கவும்",
+      "openInstrument": "கருவியை அறிக",
+      "modelNote": "கற்பித்தல் மாதிரி: வடிவங்கள், கருவிகளின் இடங்கள் மற்றும் அளவுகள் எளிமைப்படுத்தப்பட்டுள்ளன.",
+      "memory": "2 கேமராக்கள் + 2 X-கதிர் கண்டறிவிகள் + 2 துகள் எண்ணிகள் + 1 காந்தமானி = 7 கண்கள்",
+      "memoryNote": "நினைவில் வைக்க உதவும் ஒப்பீடு: சில கருவிகள் படம் எடுப்பதையும் துகள் எண்ணுவதையும் தாண்டிப் பணியாற்றுகின்றன.",
+      "madeIndia": "ஏழு கருவிகளும் இந்தியாவில் ஆராய்ச்சி நிறுவனங்களும் இஸ்ரோ மையங்களும் இணைந்து உருவாக்கியவை.",
+      "payloadDeep": "இது எப்படிச் செயல்படுகிறது?",
+      "payloadAnalogy": "இப்படிக் கற்பனை செய்யுங்கள்",
+      "continueEarth": "பூமியுடன் பயணத்தைத் தொடருங்கள் →"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "sources": [
+        "isro-overview"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "Our Sun",
+        "eyebrow": "ADITYA-L1 / INDIA’S SOLAR OBSERVATORY",
+        "title": "Aditya-L1: India’s First Mission to Study the Sun",
+        "quick": {
+          "body": "Aditya means Sun (ஆதித்யா). Meet India’s first space-based observatory dedicated to our nearest star.",
+          "analogy": "An observatory is a science lookout. This one watches the Sun from space."
+        },
+        "deep": {
+          "paragraphs": [
+            "Aditya-L1 studies the Sun and its influence on the space around us. It combines instruments that observe sunlight with instruments that measure the particles and magnetic field near the spacecraft.",
+            "A magnetic field is an invisible influence around a magnet. Think of the pattern made by iron filings around a bar magnet."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "நம் சூரியன்",
+        "eyebrow": "ஆதித்யா-L1 / இந்தியாவின் சூரிய ஆய்வகம்",
+        "title": "ஆதித்யா-L1: சூரியனை ஆய்வு செய்யும் இந்தியாவின் முதல் விண்வெளித் திட்டம்",
+        "quick": {
+          "body": "ஆதித்யா என்றால் சூரியன். நமக்கு மிக அருகிலுள்ள விண்மீனை ஆராயும் இந்தியாவின் முதல் விண்வெளி ஆய்வகத்தைச் சந்தியுங்கள்.",
+          "analogy": "ஆய்வகம் என்பது அறிவியலுக்கான கண்காணிப்பு இடம். இது விண்வெளியிலிருந்து சூரியனைக் கவனிக்கிறது."
+        },
+        "deep": {
+          "paragraphs": [
+            "ஆதித்யா-L1 சூரியனையும், சுற்றியுள்ள விண்வெளியில் அதன் தாக்கத்தையும் ஆராய்கிறது. சில கருவிகள் சூரிய ஒளியைப் பார்க்கின்றன. மற்றவை விண்கலத்திற்கு அருகிலுள்ள துகள்களையும் காந்தப்புலத்தையும் அளக்கின்றன.",
+            "காந்தப்புலம் என்பது காந்தத்தைச் சுற்றியுள்ள கண்ணுக்குத் தெரியாத தாக்கம். ஒரு காந்தத்தைச் சுற்றி இரும்புத் துகள்கள் வரிசையாக அமைவதை நினைத்துப் பாருங்கள்."
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-sun",
+      "sources": [
+        "nasa-weather",
+        "nasa-effects",
+        "nasa-processes"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "Why the Sun?",
+        "eyebrow": "SPACE WEATHER. EVERYDAY LIFE.",
+        "title": "What happens on the Sun can reach home.",
+        "quick": {
+          "body": "The Sun sends a steady stream of tiny charged particles into space. We call it the solar wind. Solar storms can disturb satellites, GPS navigation, radio links and, in severe cases, power grids.",
+          "analogy": "Space weather is like weather for space. Studying the Sun helps us understand when conditions may become stormy."
+        },
+        "deep": {
+          "paragraphs": [
+            "Charged particles carry an electric charge—think of tiny travellers with an electrical identity. The solar wind is a stream of these particles, rather than a breeze made of air.",
+            "A coronal mass ejection, or CME, is a huge release of solar material and magnetic field. Think of the Sun sending a great cloud into space. Not every cloud heads towards Earth.",
+            "A solar flare is a sudden burst of light and energy, like a bright flash. A flare and a CME are different events, although they can happen together.",
+            "GPS is the satellite system that helps your phone find its position—like signposts in the sky. Storms can make its signals less reliable. Mobile services can also be affected indirectly if supporting power or satellite links are disrupted. This does not mean every solar storm will stop ordinary mobile calls.",
+            "Aditya-L1 provides observations that help scientists understand this activity. It contributes to research; it is not a promise that every storm can be predicted."
+          ]
+        },
+        "effects": [
+          {
+            "symbol": "satellite",
+            "title": "Satellites",
+            "body": "Electronics and satellite operations can be affected."
+          },
+          {
+            "symbol": "location",
+            "title": "Finding our way",
+            "body": "GPS positions can become less accurate."
+          },
+          {
+            "symbol": "signal",
+            "title": "Staying connected",
+            "body": "Some radio and satellite links can be disrupted."
+          },
+          {
+            "symbol": "power",
+            "title": "Keeping lights on",
+            "body": "Severe storms can stress electricity networks."
+          }
+        ]
+      },
+      "ta": {
+        "nav": "சூரியன் ஏன்?",
+        "eyebrow": "விண்வெளி வானிலை. அன்றாட வாழ்க்கை.",
+        "title": "சூரியனில் நடப்பது நம் வாழ்வையும் தொடலாம்.",
+        "quick": {
+          "body": "சூரியனிலிருந்து மின்சுமை கொண்ட சிறிய துகள்கள் தொடர்ந்து விண்வெளியில் பாய்கின்றன. இதுவே சூரியக் காற்று. சூரியப் புயல்கள் செயற்கைக்கோள்கள், GPS வழிகாட்டுதல், வானொலித் தொடர்பு ஆகியவற்றைப் பாதிக்கலாம். மிகக் கடுமையான புயல்கள் மின்வலையையும் பாதிக்கலாம்.",
+          "analogy": "விண்வெளிக்கும் ஒரு வானிலை உண்டு என்று நினைத்துப் பாருங்கள். சூரியனை ஆராய்வது, அங்கு எப்போது புயலான சூழல் உருவாகலாம் என்பதைப் புரிந்துகொள்ள உதவுகிறது."
+        },
+        "deep": {
+          "paragraphs": [
+            "மின்சுமைத் துகள்கள் என்பவை மின்சாரப் பண்பைக் கொண்ட சிறிய பயணிகள் போன்றவை. சூரியக் காற்று என்பது இந்தத் துகள்களின் ஓட்டம். அது பூமியில் வீசும் காற்றைப் போன்றது அல்ல.",
+            "கொரோனல் மாஸ் எஜெக்ஷன் அல்லது CME என்பது சூரியப் பொருளும் காந்தப்புலமும் பெருமளவில் வெளியேறும் நிகழ்வு. சூரியன் விண்வெளிக்குள் ஒரு பெரிய மேகத்தை அனுப்புவதாக நினைத்துக்கொள்ளுங்கள். எல்லா மேகங்களும் பூமியை நோக்கி வருவதில்லை.",
+            "சூரியச் சுடர்வெடிப்பு என்பது ஒளியும் ஆற்றலும் திடீரென வெளிப்படும் நிகழ்வு; ஒரு பிரகாசமான மின்னல் போல. இதுவும் CME-யும் வெவ்வேறு நிகழ்வுகள். ஆனால் இரண்டும் ஒரே நேரத்தில் நடக்கலாம்.",
+            "GPS என்பது உங்கள் கைப்பேசி இருக்கும் இடத்தைக் கண்டறிய உதவும் செயற்கைக்கோள் அமைப்பு; வானில் உள்ள வழிகாட்டிப் பலகைகள் போல. புயல்கள் அதன் சமிக்ஞைகளின் துல்லியத்தைக் குறைக்கலாம். மின்சாரம் அல்லது செயற்கைக்கோள் இணைப்புகள் பாதிக்கப்பட்டால் கைப்பேசிச் சேவைகளும் மறைமுகமாகப் பாதிக்கப்படலாம். ஒவ்வொரு சூரியப் புயலும் சாதாரண கைப்பேசி அழைப்புகளை நிறுத்திவிடும் என்று இதற்குப் பொருள் இல்லை.",
+            "இந்தச் செயல்பாடுகளைப் புரிந்துகொள்ள ஆதித்யா-L1-ன் கண்காணிப்புகள் உதவுகின்றன. இது அறிவியல் ஆராய்ச்சிக்குப் பங்களிக்கிறது. எல்லாப் புயல்களையும் முன்கூட்டியே கணிக்க முடியும் என்ற உறுதி அல்ல."
+          ]
+        },
+        "effects": [
+          {
+            "symbol": "satellite",
+            "title": "செயற்கைக்கோள்கள்",
+            "body": "மின்னணுக் கருவிகளும் செயல்பாடுகளும் பாதிக்கப்படலாம்."
+          },
+          {
+            "symbol": "location",
+            "title": "வழியைக் கண்டறிதல்",
+            "body": "GPS காட்டும் இடத்தின் துல்லியம் குறையலாம்."
+          },
+          {
+            "symbol": "signal",
+            "title": "தொடர்பில் இருப்பது",
+            "body": "சில வானொலி, செயற்கைக்கோள் இணைப்புகள் தடைப்படலாம்."
+          },
+          {
+            "symbol": "power",
+            "title": "மின்சார வசதி",
+            "body": "கடுமையான புயல்கள் மின்வலையில் சிக்கல்களை ஏற்படுத்தலாம்."
+          }
+        ]
+      }
+    },
+    {
+      "id": "launch",
+      "sources": [
+        "isro-flight"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "The launch",
+        "eyebrow": "PSLV-C57 / A RELAY TO SPACE",
+        "title": "A powerful start. A careful handover.",
+        "quick": {
+          "body": "PSLV is the Polar Satellite Launch Vehicle—India’s rocket for carrying spacecraft into orbit. C57 identifies this flight. Its sections work in turn to send Aditya-L1 on its way. An orbit is a looping path, like a track around Earth.",
+          "analogy": "Think of a relay race. Each rocket stage does its part, then hands the job to the next. Leaving used sections behind makes the remaining rocket lighter."
+        },
+        "deep": {
+          "paragraphs": [
+            "This sequence follows ISRO’s PSLV-C57 brochure. Times shown here are planned flight-profile values, not measured telemetry. Telemetry is the rocket’s live report card. Scroll time is deliberately compressed and is not a mission clock.",
+            "Four ground-lit boosters start just after the main first stage. The other two are air-lit: they start later, while flying. The four ground-lit boosters separate in two pairs.",
+            "PS1 and HPS3 use solid propellant; PS2 and PS4 use liquid propellant. Propellant supplies the material for a rocket’s push. Think of solid material packed inside a motor versus liquids supplied from tanks.",
+            "The long coast and PS4 restart are part of this mission’s flight profile. Cutting off an engine does not stop the spacecraft: it keeps moving. This teaching sequence groups related booster events and omits smaller control and post-separation operations."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "ஏவுதல்",
+        "eyebrow": "PSLV-C57 / விண்வெளிக்கான தொடர் ஓட்டம்",
+        "title": "வலுவான தொடக்கம். கவனமான பொறுப்பு மாற்றம்.",
+        "quick": {
+          "body": "PSLV என்பது Polar Satellite Launch Vehicle என்பதன் சுருக்கம்; விண்கலங்களைச் சுற்றுப்பாதைக்குக் கொண்டுசெல்லும் இந்திய ராக்கெட். C57 இந்தப் பயணத்தைக் குறிக்கிறது. இதன் பகுதிகள் மாறிமாறிச் செயல்பட்டு ஆதித்யா-L1-ஐ அனுப்புகின்றன. சுற்றுப்பாதை என்பது பூமியைச் சுற்றிய ஓட்டத்தடம் போன்ற ஒரு பாதை.",
+          "analogy": "ஒரு தொடர் ஓட்டத்தை நினைத்துப் பாருங்கள். ஒவ்வொரு ராக்கெட் நிலையும் தன் வேலையைச் செய்து அடுத்ததிடம் ஒப்படைக்கிறது. பயன்படுத்திய பகுதிகளை விட்டுச் செல்வதால் மீதமுள்ள ராக்கெட்டின் எடை குறைகிறது."
+        },
+        "deep": {
+          "paragraphs": [
+            "இந்த வரிசை இஸ்ரோவின் PSLV-C57 கையேட்டை அடிப்படையாகக் கொண்டது. இங்கு காட்டப்படுவது திட்டமிடப்பட்ட நேரங்கள்; நேரடியாக அளந்த பறப்புத் தரவுகள் அல்ல. நேரடித் தரவு என்பது ராக்கெட் அனுப்பும் உடனடி அறிக்கை போன்றது. திரை அசைவின் நேரம் உண்மையான பயண நேரம் அல்ல.",
+            "முதல் நிலைக்குப் பிறகு நான்கு தரைத் தொடக்க உந்திகள் இயக்கப்படுகின்றன. மற்ற இரண்டு உந்திகள் பறக்கும்போது இயக்கப்படுகின்றன. தரைத் தொடக்க உந்திகள் இரண்டு ஜோடிகளாகப் பிரிகின்றன.",
+            "PS1 மற்றும் HPS3 திட உந்துபொருளைப் பயன்படுத்துகின்றன. PS2 மற்றும் PS4 திரவ உந்துபொருளைப் பயன்படுத்துகின்றன. உந்துபொருள் ராக்கெட்டிற்குத் தேவையான தள்ளுவிசையை உருவாக்க உதவுகிறது. இயந்திரத்திற்குள் நிரப்பிய திடப் பொருளையும் தொட்டியிலிருந்து வரும் திரவங்களையும் ஒப்பிட்டுப் பாருங்கள்.",
+            "நீண்ட நேர இயந்திரமற்ற பயணமும் PS4 மறுதொடக்கமும் இந்தப் பயணத் திட்டத்தின் பகுதிகள். இயந்திரத்தை நிறுத்துவதால் விண்கலம் நின்றுவிடாது. இந்தக் கற்பித்தல் வரிசையில் தொடர்புடைய துணை உந்தி நிகழ்வுகள் சேர்த்துக் காட்டப்படுகின்றன. சிறிய கட்டுப்பாட்டு நிகழ்வுகளும் பிரிந்த பிறகான செயல்பாடுகளும் காட்டப்படவில்லை."
+          ]
+        }
+      }
+    },
+    {
+      "id": "journey",
+      "sources": [
+        "isro-timeline",
+        "isro-orbit"
+      ],
+      "facts": [
+        {
+          "id": "l1-distance",
+          "value": 1500000,
+          "unit": "km",
+          "approximate": true,
+          "status": "VERIFIED",
+          "source": "isro-overview"
+        }
+      ],
+      "en": {
+        "nav": "The journey",
+        "eyebrow": "EARTH → L1 / A NEW PERSPECTIVE",
+        "title": "A long journey. A carefully chosen seat.",
+        "quick": {
+          "body": "Aditya-L1 travels from Earth to a region about 1.5 million kilometres away, towards the Sun. That is only about 1% of the Earth–Sun distance.",
+          "analogy": "Think of joining a highway: first build up speed on the approach, then take the route towards your destination."
+        },
+        "deep": {
+          "paragraphs": [
+            "Orbit raising means using engine pushes to stretch the spacecraft’s path around Earth. An orbit is a repeating route around a body, like a track around a playground.",
+            "The sphere of influence is a useful boundary for planning a path. Think of changing from a local street map to a regional map. Earth’s gravity continues beyond it.",
+            "ISRO reported the spacecraft beyond Earth’s sphere of influence on 30 September 2023. It entered its target halo orbit on 6 January 2024.",
+            "Cruise means travelling between major engine manoeuvres. Like a ship between ports, the spacecraft can make smaller course corrections along the way."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "பயணம்",
+        "eyebrow": "பூமி → L1 / ஒரு புதிய பார்வை",
+        "title": "ஒரு நீண்ட பயணம். கவனமாகத் தேர்ந்தெடுத்த இடம்.",
+        "quick": {
+          "body": "பூமியிலிருந்து சூரியனை நோக்கிச் சுமார் 15 லட்சம் கிலோமீட்டர் தொலைவில் உள்ள பகுதிக்கு ஆதித்யா-L1 பயணிக்கிறது. இது பூமி–சூரியன் இடைவெளியில் சுமார் 1% மட்டுமே.",
+          "analogy": "நெடுஞ்சாலையில் சேர்வது போல: முதலில் அணுகுபாதையில் தேவையான வேகத்தைப் பெறுங்கள்; பிறகு இலக்கை நோக்கிய பாதையில் செல்லுங்கள்."
+        },
+        "deep": {
+          "paragraphs": [
+            "சுற்றுப்பாதையை உயர்த்துதல் என்பது இயந்திர உந்துதல்களால் பூமியைச் சுற்றிய பாதையை விரிவாக்குவது. சுற்றுப்பாதை என்பது விளையாட்டு மைதானத்தைச் சுற்றிய ஓட்டத்தடம் போன்றது.",
+            "செல்வாக்கு எல்லை என்பது பயணப் பாதையைக் கணக்கிட உதவும் எல்லை. உள்ளூர் வரைபடத்திலிருந்து பெரிய பகுதியின் வரைபடத்திற்கு மாறுவது போல. இந்த எல்லைக்கு அப்பாலும் பூமியின் ஈர்ப்பு தொடர்கிறது.",
+            "2023 செப்டம்பர் 30 அன்று விண்கலம் பூமியின் செல்வாக்கு எல்லையைக் கடந்ததாக இஸ்ரோ தெரிவித்தது. 2024 ஜனவரி 6 அன்று இலக்கு ஹேலோ சுற்றுப்பாதையை அடைந்தது.",
+            "முக்கிய இயந்திர இயக்கங்களுக்கு இடையிலான பயணமே நீண்ட பயணக் கட்டம். துறைமுகங்களுக்கு இடையில் செல்லும் கப்பல் போல, வழியில் சிறிய பாதைத் திருத்தங்கள் செய்யலாம்."
+          ]
+        }
+      }
+    },
+    {
+      "id": "lagrange",
+      "sources": [
+        "nasa-lagrange",
+        "isro-overview"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "What is L1?",
+        "eyebrow": "FIVE SPECIAL PLACES / ONE CLEAR VIEW",
+        "title": "A balance that moves with Earth.",
+        "quick": {
+          "body": "Lagrange points are special locations where gravity and orbital motion fit together. A spacecraft can stay near the same place relative to the Sun and Earth. Aditya-L1’s halo orbit near L1 gives it a continuous view of the Sun without eclipses.",
+          "analogy": "Imagine two children pulling a rope from opposite ends. A balanced marker suggests the idea of balance—but L1 is not the midpoint, and the whole Sun–Earth system is moving."
+        },
+        "deep": {
+          "paragraphs": [
+            "Gravity is the attraction between objects, like an invisible pull. At L1, the Sun’s pull and Earth’s pull combine to give the motion needed to go around the Sun with Earth. It is not a zero-gravity point.",
+            "In a rotating reference frame—a view that turns along with Earth—the five points stay in place. Imagine a camera riding on a merry-go-round.",
+            "L1, L2 and L3 are unstable: small departures can grow. L4 and L5 are stable in the ideal Sun–Earth model. Select each point below to compare them."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "L1 என்றால் என்ன?",
+        "eyebrow": "ஐந்து சிறப்பு இடங்கள் / ஒரு தெளிவான பார்வை",
+        "title": "பூமியுடன் நகரும் ஒரு சமநிலை.",
+        "quick": {
+          "body": "ஈர்ப்பும் சுற்றுப்பாதை இயக்கமும் பொருந்தும் சிறப்பு இடங்களே லாக்ராஞ்ச் புள்ளிகள். சூரியன், பூமி ஆகியவற்றை ஒப்பிடும்போது விண்கலம் ஒரே பகுதியின் அருகில் இருக்க முடியும். L1 அருகிலுள்ள ஆதித்யா-L1-ன் ஹேலோ பாதை கிரகணத் தடையின்றி சூரியனைத் தொடர்ந்து பார்க்க உதவுகிறது.",
+          "analogy": "இரண்டு குழந்தைகள் ஒரு கயிற்றை எதிரெதிர் முனைகளிலிருந்து இழுப்பதை நினைத்துப் பாருங்கள். சமநிலையிலுள்ள ஒரு குறி இந்த எண்ணத்தை விளக்கலாம். ஆனால் L1 நடுப்புள்ளி அல்ல; முழு சூரியன்–பூமி அமைப்பும் நகர்கிறது."
+        },
+        "deep": {
+          "paragraphs": [
+            "ஈர்ப்பு என்பது பொருட்களுக்கு இடையிலான கண்ணுக்குத் தெரியாத இழுப்பு. L1-இல் சூரியன், பூமி ஆகியவற்றின் கூட்டு இழுப்பு விண்கலம் பூமியுடன் சேர்ந்து சூரியனைச் சுற்றத் தேவையான இயக்கத்தைத் தருகிறது. இங்கே ஈர்ப்பு இல்லாமல் போவதில்லை.",
+            "பூமியுடன் சேர்ந்து திரும்பும் பார்வையில் இந்த ஐந்து புள்ளிகளும் ஒரே இடத்தில் இருப்பதுபோல் தெரியும். சுற்றும் ராட்டினத்தில் பொருத்திய கேமராவைக் கற்பனை செய்யுங்கள்.",
+            "L1, L2, L3 அருகில் சிறிய விலகல்கள் பெரிதாகலாம். எளிய சூரியன்–பூமி மாதிரியில் L4, L5 நிலையானவை. ஒவ்வொரு புள்ளியையும் தேர்ந்தெடுத்து ஒப்பிடுங்கள்."
+          ]
+        }
+      }
+    },
+    {
+      "id": "halo",
+      "sources": [
+        "isro-halo",
+        "nasa-lagrange"
+      ],
+      "facts": [
+        {
+          "id": "halo-period",
+          "value": 177.86,
+          "unit": "Earth days",
+          "approximate": true,
+          "status": "VERIFIED",
+          "source": "isro-halo"
+        }
+      ],
+      "en": {
+        "nav": "The halo orbit",
+        "eyebrow": "A LOOP IN SPACE / A STEADY WATCH",
+        "title": "It keeps moving. And keeps watching.",
+        "quick": {
+          "body": "Aditya-L1 follows a three-dimensional loop around the L1 region. This is called a halo orbit. L1 is a location in space, not a planet or an object pulling the satellite.",
+          "analogy": "Keeping this orbit is like balancing a pencil on your fingertip. Small adjustments stop a tiny drift from growing. These engine corrections are called station-keeping."
+        },
+        "deep": {
+          "paragraphs": [
+            "The loop is seen in a view that turns with the Sun–Earth line. The spacecraft is also travelling around the Sun with Earth. Think of walking around a spot on a moving carousel.",
+            "ISRO describes the orbit’s period as about 177.86 Earth days. A period is the time for one full loop, like one lap of a track. The animation is sped up and does not reproduce the measured orbit.",
+            "Engineers track the spacecraft and plan station-keeping burns. These are brief engine pushes, not continuous engine firing. The chosen halo orbit provides an uninterrupted solar view."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "ஹேலோ பாதை",
+        "eyebrow": "விண்வெளியில் ஒரு வளையம் / தொடர் கண்காணிப்பு",
+        "title": "தொடர்ந்து நகர்கிறது. தொடர்ந்து கவனிக்கிறது.",
+        "quick": {
+          "body": "L1 பகுதியைச் சுற்றிய முப்பரிமாண வளையப் பாதையில் ஆதித்யா-L1 செல்கிறது. இதுவே ஹேலோ சுற்றுப்பாதை. L1 என்பது விண்வெளியில் ஓர் இடம்; விண்கலத்தை இழுக்கும் கோளோ பொருளோ அல்ல.",
+          "analogy": "விரல் நுனியில் பென்சிலைச் சமநிலையில் வைத்திருப்பது போல. சிறிய சரிசெய்தல்கள் விலகல் பெரிதாவதைத் தடுக்கின்றன. இத்தகைய இயந்திரப் பாதைத் திருத்தங்களே நிலைப்பராமரிப்பு."
+        },
+        "deep": {
+          "paragraphs": [
+            "சூரியன்–பூமி வரியுடன் திரும்பும் பார்வையில் இந்த வளையம் தெரிகிறது. விண்கலம் பூமியுடன் சேர்ந்து சூரியனையும் சுற்றுகிறது. நகரும் ராட்டினத்தில் ஓர் இடத்தைச் சுற்றி நடப்பதை நினைத்துப் பாருங்கள்.",
+            "ஒரு முழுச் சுற்றுக்குச் சுமார் 177.86 பூமி நாட்கள் ஆகும் என்று இஸ்ரோ குறிப்பிடுகிறது. ஒரு சுற்றுக்காலம் என்பது ஓட்டத்தடத்தில் ஒரு முழுச் சுற்று வர எடுக்கும் நேரம் போன்றது. இந்த அசைவு விரைவுபடுத்தப்பட்டது; அளந்த உண்மைப் பாதையின் மறுஉருவாக்கம் அல்ல.",
+            "பொறியாளர்கள் விண்கலத்தைக் கண்காணித்துப் பாதைத் திருத்தங்களைத் திட்டமிடுகின்றனர். இவை குறுகிய இயந்திர உந்துதல்கள்; தொடர்ச்சியான இயக்கம் அல்ல. தேர்ந்தெடுத்த ஹேலோ பாதை சூரியனைத் தடையின்றிப் பார்க்க உதவுகிறது."
+          ]
+        }
+      }
+    },
+    {
+      "id": "satellite",
+      "sources": [
+        "isro-payloads"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "Seven instruments",
+        "eyebrow": "ONE SPACECRAFT / SEVEN WAYS TO DISCOVER",
+        "title": "Meet the Sun’s seven eyes.",
+        "quick": {
+          "body": "A payload is a scientific instrument carried by a spacecraft. Aditya-L1 carries seven, each asking a different question.",
+          "analogy": "Like a science kit: a camera, a particle counter and a magnetic-field meter notice different things."
+        },
+        "deep": {
+          "paragraphs": [
+            "Four instruments look towards the Sun. Three sample particles and magnetic fields near the spacecraft. Together they connect distant activity to local conditions."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "ஏழு கருவிகள்",
+        "eyebrow": "ஒரு விண்கலம் / ஏழு ஆய்வு வழிகள்",
+        "title": "சூரியனை அறியும் ஏழு கண்கள்.",
+        "quick": {
+          "body": "விண்கலம் எடுத்துச் செல்லும் அறிவியல் கருவியே ஆய்வுப் பயன்சுமை. ஆதித்யா-L1-இல் ஏழு கருவிகள் உள்ளன. ஒவ்வொன்றும் வேறொரு கேள்விக்கு விடை தேடுகிறது.",
+          "analogy": "அறிவியல் கருவிப்பெட்டி போல: கேமரா, துகள் எண்ணி, காந்தமானி ஆகியவை வெவ்வேறு தகவல்களைத் தருகின்றன."
+        },
+        "deep": {
+          "paragraphs": [
+            "நான்கு கருவிகள் சூரியனை நோக்கிக் கவனிக்கின்றன. மூன்று கருவிகள் விண்கலத்தின் அருகிலுள்ள துகள்களையும் காந்தப்புலத்தையும் அளக்கின்றன. இவை தொலைவிலுள்ள செயல்பாட்டையும் அருகிலுள்ள சூழலையும் இணைத்துப் புரிந்துகொள்ள உதவுகின்றன."
+          ]
+        }
+      }
+    },
+    {
+      "id": "why-space",
+      "sources": [
+        "isro-payloads"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "Why space?",
+        "eyebrow": "ABOVE OUR PROTECTIVE SKY",
+        "title": "To see more, go beyond the air.",
+        "quick": {
+          "body": "Earth’s atmosphere blocks X-rays and much ultraviolet light. Its magnetic field redirects many charged particles. To sample the solar wind and observe these kinds of light clearly, these instruments work in space.",
+          "analogy": "Our planet wears a protective coat. It helps keep us safe, but hides some of the signals scientists want to study."
+        },
+        "deep": {
+          "paragraphs": [
+            "Not all ultraviolet light is blocked; some reaches the ground. The atmosphere and magnetic field protect us in different ways.",
+            "Space instruments can detect light absorbed by air and sample the solar wind outside Earth’s magnetic surroundings. Ground-based solar telescopes are still valuable; different observations complement each other."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "விண்வெளி ஏன்?",
+        "eyebrow": "நம்மைக் காக்கும் வானுக்கு அப்பால்",
+        "title": "மேலும் காண, காற்றைக் கடந்து செல்லுங்கள்.",
+        "quick": {
+          "body": "பூமியின் வளிமண்டலம் X-கதிர்களையும் பெருமளவு புறஊதா ஒளியையும் தடுக்கிறது. அதன் காந்தப்புலம் பல மின்சுமைத் துகள்களின் பாதையை மாற்றுகிறது. இவற்றைத் தெளிவாகக் கவனிக்கவும் சூரியக் காற்றை அளக்கவும் இந்தக் கருவிகள் விண்வெளியில் இயங்குகின்றன.",
+          "analogy": "பூமி ஒரு பாதுகாப்பு மேலங்கியை அணிந்திருப்பது போல. அது நம்மைக் காக்கிறது; ஆனால் அறிவியலாளர்கள் தேடும் சில சமிக்ஞைகளை மறைக்கிறது."
+        },
+        "deep": {
+          "paragraphs": [
+            "எல்லாப் புறஊதா ஒளியும் தடுக்கப்படுவதில்லை; சில தரையை அடைகின்றன. வளிமண்டலமும் காந்தப்புலமும் வெவ்வேறு வழிகளில் நம்மைப் பாதுகாக்கின்றன.",
+            "காற்றால் தடுக்கப்படும் ஒளியையும் பூமியின் காந்தச் சூழலுக்கு வெளியேயுள்ள சூரியக் காற்றையும் விண்வெளிக் கருவிகள் அளக்க முடியும். தரையிலுள்ள சூரியத் தொலைநோக்கிகளும் பயனுள்ளவை. வெவ்வேறு கண்காணிப்புகள் ஒன்றுக்கொன்று உதவுகின்றன."
+          ]
+        }
+      }
+    },
+    {
+      "id": "science",
+      "sources": [
+        "isro-flight"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "Science goals",
+        "eyebrow": "FIVE QUESTIONS / A STAR FULL OF CLUES",
+        "title": "Big questions. Careful measurements.",
+        "quick": {
+          "body": "Aditya-L1 collects evidence to help explain how the Sun’s outer layers behave and influence space around us.",
+          "analogy": "Like detectives comparing clues, scientists combine different instruments rather than relying on a single picture."
+        },
+        "deep": {
+          "paragraphs": [
+            "The corona is the Sun’s outer atmosphere. Solar atmosphere dynamics means how its layers move and change—like tracking winds and clouds, but in hot charged gas.",
+            "Temperature is related to the random motion of particles. Different motion along and across a magnetic field can give different temperatures by direction; this is not simply one side of the Sun being hotter than another."
+          ]
+        },
+        "effects": [
+          {
+            "symbol": "power",
+            "title": "Why is the corona so hot?",
+            "body": "The outer atmosphere is hotter than the surface below. How does energy reach it? Like asking why the air above a stove could be hotter than the stove."
+          },
+          {
+            "symbol": "signal",
+            "title": "How does solar wind speed up?",
+            "body": "What accelerates particles away from the Sun? Like finding what pushes a flowing stream faster."
+          },
+          {
+            "symbol": "satellite",
+            "title": "How do CMEs begin?",
+            "body": "Study huge releases of solar material and magnetic field. Like tracing a storm back to its first signs."
+          },
+          {
+            "symbol": "location",
+            "title": "How do solar layers change?",
+            "body": "Follow motion and energy between atmospheric layers. Like watching weather at different heights."
+          },
+          {
+            "symbol": "power",
+            "title": "Does direction change temperature?",
+            "body": "Anisotropy means direction matters. Particles can have different thermal motion along and across a magnetic field—like a crowd moving more freely one way."
+          }
+        ]
+      },
+      "ta": {
+        "nav": "அறிவியல் நோக்கங்கள்",
+        "eyebrow": "ஐந்து கேள்விகள் / தடயங்கள் நிறைந்த விண்மீன்",
+        "title": "பெரிய கேள்விகள். கவனமான அளவீடுகள்.",
+        "quick": {
+          "body": "சூரியனின் வெளிப்புற அடுக்குகள் எவ்வாறு செயல்படுகின்றன, சுற்றியுள்ள விண்வெளியை எவ்வாறு பாதிக்கின்றன என்பதை விளக்க ஆதித்யா-L1 தரவுகளைச் சேகரிக்கிறது.",
+          "analogy": "தடயங்களை ஒப்பிடும் துப்பறிவாளர்கள் போல, அறிவியலாளர்கள் ஒரே படத்தை மட்டும் நம்பாமல் பல கருவிகளின் தகவல்களை இணைக்கின்றனர்."
+        },
+        "deep": {
+          "paragraphs": [
+            "கொரோனா சூரியனின் வெளிப்புற வளிமண்டலம். அதன் அடுக்குகள் எவ்வாறு நகர்ந்து மாறுகின்றன என்பதை ஆராய்வதே வளிமண்டல இயக்கவியல்; சூடான மின்சுமை வாயுவில் காற்றையும் மேகங்களையும் கண்காணிப்பது போன்றது.",
+            "வெப்பநிலை துகள்களின் ஒழுங்கற்ற இயக்கத்துடன் தொடர்புடையது. காந்தப்புலத் திசையிலும் குறுக்காகவும் வேறுபட்ட இயக்கம், திசைக்கு ஏற்ப வேறுபட்ட வெப்பநிலைகளைத் தரலாம். சூரியனின் ஒரு பக்கம் மற்றதைவிடச் சூடாக இருப்பதை மட்டும் இது குறிக்கவில்லை."
+          ]
+        },
+        "effects": [
+          {
+            "symbol": "power",
+            "title": "கொரோனா ஏன் இவ்வளவு சூடாக உள்ளது?",
+            "body": "வெளிப்புற வளிமண்டலம் கீழுள்ள பரப்பைவிடச் சூடானது. ஆற்றல் அங்கே எப்படிச் செல்கிறது? அடுப்பைவிட மேலுள்ள காற்று சூடாக இருந்தால் ஏன் என்று கேட்பது போல."
+          },
+          {
+            "symbol": "signal",
+            "title": "சூரியக் காற்றின் வேகம் எப்படி அதிகரிக்கிறது?",
+            "body": "சூரியனிலிருந்து துகள்களை வேகமாகச் செலுத்துவது எது? ஓடையின் வேகத்தை அதிகரிக்கும் காரணத்தைத் தேடுவது போல."
+          },
+          {
+            "symbol": "satellite",
+            "title": "CME எப்படித் தொடங்குகிறது?",
+            "body": "சூரியப் பொருளும் காந்தப்புலமும் பெருமளவில் வெளியேறுவதை ஆராய்தல். புயலின் முதல் அறிகுறிகளைத் தேடுவது போல."
+          },
+          {
+            "symbol": "location",
+            "title": "சூரிய அடுக்குகள் எப்படி மாறுகின்றன?",
+            "body": "வளிமண்டல அடுக்குகளுக்கு இடையிலான இயக்கத்தையும் ஆற்றலையும் ஆராய்தல். வெவ்வேறு உயரங்களில் வானிலையைக் கவனிப்பது போல."
+          },
+          {
+            "symbol": "power",
+            "title": "திசைக்கு ஏற்ப வெப்பநிலை மாறுமா?",
+            "body": "திசையைப் பொறுத்துப் பண்புகள் மாறுவதே அனிசோட்ரோபி. காந்தப்புலத்தின் திசையிலும் குறுக்காகவும் துகள்களின் வெப்ப இயக்கம் வேறுபடலாம்; ஒரு திசையில் எளிதாக நகரும் கூட்டம் போல."
+          }
+        ]
+      }
+    },
+    {
+      "id": "matters",
+      "sources": [
+        "nasa-weather"
+      ],
+      "facts": [],
+      "en": {
+        "nav": "Why it matters",
+        "eyebrow": "FROM OUR STAR / TO OUR EVERYDAY LIVES",
+        "title": "Understanding the Sun helps us prepare.",
+        "quick": {
+          "body": "Better knowledge of space weather supports efforts to protect satellites, navigation, communications and power networks. It also grows India’s space-science capability and invites the next generation to ask bigger questions.",
+          "analogy": "Like learning to read the sky before planning a journey, understanding the Sun helps people make better-informed choices."
+        },
+        "deep": {
+          "paragraphs": [
+            "Research improves understanding over time. Aditya-L1 does not shield Earth, switch off storms or guarantee an exact warning for every event.",
+            "Building instruments, analysing data and asking new questions train people as well as advance science. A student at this expo could become part of that work."
+          ]
+        }
+      },
+      "ta": {
+        "nav": "நமக்கு ஏன் முக்கியம்?",
+        "eyebrow": "நம் விண்மீனிலிருந்து / நம் அன்றாட வாழ்வுக்கு",
+        "title": "சூரியனை அறிவது தயாராக இருக்க உதவுகிறது.",
+        "quick": {
+          "body": "விண்வெளி வானிலையை நன்கு அறிவது செயற்கைக்கோள்கள், வழிகாட்டுதல், தகவல்தொடர்பு மற்றும் மின்வலையைப் பாதுகாக்கும் முயற்சிகளுக்கு உதவுகிறது. இந்தியாவின் விண்வெளி அறிவியலையும் வளர்த்து, அடுத்த தலைமுறையைப் பெரிய கேள்விகள் கேட்க அழைக்கிறது.",
+          "analogy": "பயணத்தைத் திட்டமிடுமுன் வானிலையை அறிந்துகொள்வது போல, சூரியனைப் புரிந்துகொள்வது தகவலறிந்த முடிவுகளுக்கு உதவுகிறது."
+        },
+        "deep": {
+          "paragraphs": [
+            "ஆராய்ச்சி காலப்போக்கில் புரிதலை மேம்படுத்துகிறது. ஆதித்யா-L1 பூமிக்குக் கவசம் அமைப்பதோ புயல்களை நிறுத்துவதோ எல்லா நிகழ்வுகளுக்கும் துல்லிய எச்சரிக்கை தருவதாக உறுதியளிப்பதோ இல்லை.",
+            "கருவிகளை உருவாக்குதல், தரவுகளை ஆராய்தல், புதிய கேள்விகளைக் கேட்டல் ஆகியவை அறிவியலுடன் மனிதர்களின் திறனையும் வளர்க்கின்றன. இந்தக் கண்காட்சிக்கு வரும் மாணவரும் அந்தப் பணியில் பங்கேற்கலாம்."
+          ]
+        }
+      }
+    },
+    {
+      "id": "facts",
+      "sources": [
+        "isro-flight"
+      ],
+      "en": {
+        "eyebrow": "MISSION SNAPSHOT",
+        "title": "Small numbers. A big adventure.",
+        "nav": "Quick facts",
+        "quick": {
+          "body": "Six anchors to remember the story. Distances are approximate.",
+          "analogy": "Like the details on a travel ticket: the vehicle, destination and departure date."
+        },
+        "deep": {
+          "paragraphs": [
+            "Payload means a scientific instrument carried by the spacecraft, like a tool in an explorer’s backpack.",
+            "Launch mass includes the spacecraft and its fuel. The PSLV-C57 brochure specifies 1,480.7 kg. L1 is a region in space; the spacecraft follows a halo orbit around it."
+          ]
+        }
+      },
+      "ta": {
+        "eyebrow": "பயணத்தின் சுருக்கம்",
+        "title": "சில எண்கள். ஒரு பெரிய பயணம்.",
+        "nav": "முக்கிய தகவல்கள்",
+        "quick": {
+          "body": "இந்தப் பயணத்தை நினைவில் கொள்ள ஆறு தகவல்கள். தூரங்கள் தோராயமானவை.",
+          "analogy": "பயணச்சீட்டில் உள்ள வாகனம், செல்லும் இடம், புறப்படும் நாள் போன்ற தகவல்கள்."
+        },
+        "deep": {
+          "paragraphs": [
+            "அறிவியல் கருவி என்பது விண்கலத்தில் எடுத்துச் செல்லப்படும் ஆய்வுக் கருவி. பயணியின் பையில் இருக்கும் உதவிக் கருவி போன்றது.",
+            "ஏவும்போதைய நிறையில் விண்கலமும் எரிபொருளும் அடங்கும். PSLV-C57 கையேடு 1,480.7 கிலோ என்று குறிப்பிடுகிறது. L1 ஒரு விண்வெளிப் பகுதி. விண்கலம் அதைச் சுற்றி வளையப் பாதையில் இயங்குகிறது."
+          ]
+        }
+      }
+    },
+    {
+      "id": "quiz",
+      "sources": [
+        "isro-overview"
+      ],
+      "en": {
+        "eyebrow": "YOUR TURN",
+        "title": "How much Sun do you know?",
+        "nav": "Quiz",
+        "quick": {
+          "body": "Six questions. No timer. Every answer teaches you something.",
+          "analogy": "Think of this as a friendly checkpoint on your space journey."
+        },
+        "deep": {
+          "paragraphs": [
+            "Try answering before returning to the story. Your first answer counts, and the explanation helps you learn.",
+            "You can restart at any time. Your answers stay in this open page only; no account or personal details are needed."
+          ]
+        }
+      },
+      "ta": {
+        "eyebrow": "உங்கள் முறை",
+        "title": "சூரியனைப் பற்றி எவ்வளவு தெரியும்?",
+        "nav": "வினாடி வினா",
+        "quick": {
+          "body": "ஆறு கேள்விகள். நேரக் கட்டுப்பாடு இல்லை. ஒவ்வொரு பதிலும் புதிதாகக் கற்றுத் தரும்.",
+          "analogy": "விண்வெளிப் பயணத்தில் ஒரு நட்பான நினைவூட்டல் என்று நினைத்துக் கொள்ளுங்கள்."
+        },
+        "deep": {
+          "paragraphs": [
+            "கதையை மீண்டும் படிக்கும் முன் பதில் சொல்லிப் பாருங்கள். முதல் பதிலே மதிப்பெண்ணுக்கு எடுத்துக்கொள்ளப்படும். விளக்கம் கற்றுக்கொள்ள உதவும்.",
+            "எப்போது வேண்டுமானாலும் மீண்டும் தொடங்கலாம். பதில்கள் திறந்திருக்கும் இந்தப் பக்கத்தில் மட்டும் இருக்கும். கணக்கும் தனிப்பட்ட தகவலும் தேவையில்லை."
+          ]
+        }
+      }
+    },
+    {
+      "id": "faq",
+      "sources": [
+        "isro-overview"
+      ],
+      "en": {
+        "eyebrow": "KEEP ASKING",
+        "title": "Curiosity belongs here.",
+        "nav": "Questions",
+        "quick": {
+          "body": "Big questions are welcome. Start with one.",
+          "analogy": "Every question opens another window onto the Sun."
+        },
+        "deep": {
+          "paragraphs": [
+            "These answers describe the purpose and design of the mission. This exhibit does not display live spacecraft telemetry — the engineering updates sent home by the spacecraft."
+          ]
+        }
+      },
+      "ta": {
+        "eyebrow": "தொடர்ந்து கேளுங்கள்",
+        "title": "ஆர்வத்திற்கு இங்கே இடம் உண்டு.",
+        "nav": "கேள்விகள்",
+        "quick": {
+          "body": "எந்தக் கேள்வியாக இருந்தாலும் கேளுங்கள். ஒன்றிலிருந்து தொடங்கலாம்.",
+          "analogy": "ஒவ்வொரு கேள்வியும் சூரியனை அறிய ஒரு புதிய சாளரம்."
+        },
+        "deep": {
+          "paragraphs": [
+            "இந்தப் பதில்கள் திட்டத்தின் நோக்கத்தையும் வடிவமைப்பையும் விளக்குகின்றன. விண்கலம் அனுப்பும் நேரடி பொறியியல் தகவல்கள் இங்கே காட்டப்படவில்லை."
+          ]
+        }
+      }
+    }
+  ],
+  "launchEvents": [
+    {
+      "id": "liftoff",
+      "plannedSeconds": "0–0.62",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS1 + four boosters start",
+        "body": "The main first-stage motor and four side boosters begin the lift. Boosters are extra helpers for the heavy start."
+      },
+      "ta": {
+        "title": "PS1 + நான்கு துணை உந்திகள் தொடங்குகின்றன",
+        "body": "முதல் நிலையின் முதன்மை உந்தியும் நான்கு பக்க உந்திகளும் உயர்த்தத் தொடங்குகின்றன. கனமான தொடக்கச் சுமையைத் தூக்க உதவும் கூடுதல் உதவியாளர்களே துணை உந்திகள்."
+      }
+    },
+    {
+      "id": "air-lit",
+      "plannedSeconds": "25.0",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "Two more boosters light",
+        "body": "The two remaining side boosters start while the rocket is already flying."
+      },
+      "ta": {
+        "title": "மேலும் இரண்டு உந்திகள் இயங்குகின்றன",
+        "body": "ராக்கெட் பறந்துகொண்டிருக்கும்போது மீதமுள்ள இரண்டு பக்க உந்திகள் இயக்கப்படுகின்றன."
+      }
+    },
+    {
+      "id": "ground-separation",
+      "plannedSeconds": "69.9–70.1",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "Four boosters leave",
+        "body": "The four boosters lit near the ground detach in pairs. Empty helpers need not travel further."
+      },
+      "ta": {
+        "title": "நான்கு உந்திகள் பிரிகின்றன",
+        "body": "தரைக்கு அருகில் இயக்கப்பட்ட நான்கு துணை உந்திகள் ஜோடிகளாகப் பிரிகின்றன. வேலை முடிந்த உதவியாளர்களை இனியும் சுமக்கத் தேவையில்லை."
+      }
+    },
+    {
+      "id": "air-separation",
+      "plannedSeconds": "92.0",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "The last two boosters leave",
+        "body": "The two boosters started in flight now detach too."
+      },
+      "ta": {
+        "title": "மீதமுள்ள இரண்டு உந்திகளும் பிரிகின்றன",
+        "body": "பறக்கும்போது இயக்கப்பட்ட இரண்டு துணை உந்திகளும் இப்போது பிரிகின்றன."
+      }
+    },
+    {
+      "id": "ps1-separation",
+      "plannedSeconds": "109.40",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS1 hands over",
+        "body": "The first stage separates. A stage is one section of the rocket with its own propulsion—like one runner in a relay."
+      },
+      "ta": {
+        "title": "PS1 பொறுப்பை ஒப்படைக்கிறது",
+        "body": "முதல் நிலை பிரிகிறது. நிலை என்பது தனக்கென உந்து அமைப்பைக் கொண்ட ராக்கெட்டின் பகுதி; தொடர் ஓட்டத்தில் ஒரு வீரரைப் போல."
+      }
+    },
+    {
+      "id": "ps2-ignition",
+      "plannedSeconds": "109.60",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS2 takes the lead",
+        "body": "The second-stage engine starts. The next runner takes over."
+      },
+      "ta": {
+        "title": "PS2 பொறுப்பை ஏற்கிறது",
+        "body": "இரண்டாம் நிலையின் இயந்திரம் இயக்கப்படுகிறது. அடுத்த வீரர் ஓட்டத்தைத் தொடர்கிறார்."
+      }
+    },
+    {
+      "id": "fairing-separation",
+      "plannedSeconds": "204.40",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "The protective cover opens",
+        "body": "The heat shield, or fairing, splits away. It is like a helmet that protected the spacecraft during the climb through thick air."
+      },
+      "ta": {
+        "title": "பாதுகாப்புக் கவசம் திறக்கிறது",
+        "body": "வெப்பக் கவசம் பிரிகிறது. அடர்த்தியான காற்றைக் கடக்கும்போது விண்கலத்தைப் பாதுகாத்த தலைக்கவசம் போன்றது இது."
+      }
+    },
+    {
+      "id": "ps2-separation",
+      "plannedSeconds": "262.38",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS2 separates",
+        "body": "The second stage has finished its job and detaches."
+      },
+      "ta": {
+        "title": "PS2 பிரிகிறது",
+        "body": "இரண்டாம் நிலை தன் பணியை முடித்துப் பிரிகிறது."
+      }
+    },
+    {
+      "id": "ps3-ignition",
+      "plannedSeconds": "263.58",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "HPS3 starts",
+        "body": "The third stage lights. HPS3 is its name in the mission brochure."
+      },
+      "ta": {
+        "title": "HPS3 இயங்கத் தொடங்குகிறது",
+        "body": "மூன்றாம் நிலை இயக்கப்படுகிறது. திட்டக் கையேட்டில் இதன் பெயர் HPS3."
+      }
+    },
+    {
+      "id": "ps3-separation",
+      "plannedSeconds": "581.42",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "HPS3 separates",
+        "body": "The third stage detaches after its work. The upper stage and spacecraft coast onward. Coasting is moving without an engine firing."
+      },
+      "ta": {
+        "title": "HPS3 பிரிகிறது",
+        "body": "மூன்றாம் நிலை பணி முடிந்து பிரிகிறது. மேல்நிலையும் விண்கலமும் தொடர்ந்து நகர்கின்றன. இயந்திரம் இயங்காமலும் ஏற்கெனவே பெற்ற வேகத்தில் நகர முடியும்."
+      }
+    },
+    {
+      "id": "ps4-first",
+      "plannedSeconds": "1493.52",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS4: first engine burn",
+        "body": "The fourth stage fires for the first time. A burn is an engine-powered push."
+      },
+      "ta": {
+        "title": "PS4: முதல் இயக்கம்",
+        "body": "நான்காம் நிலை முதல் முறையாக இயக்கப்படுகிறது. இயந்திர இயக்கம் விண்கலத்திற்கு ஓர் உந்துதலை அளிக்கிறது."
+      }
+    },
+    {
+      "id": "ps4-first-cutoff",
+      "plannedSeconds": "1523.38",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS4 pauses",
+        "body": "The engines stop after the first burn. The rocket continues moving during a coast."
+      },
+      "ta": {
+        "title": "PS4 இடைநிறுத்தம்",
+        "body": "முதல் இயக்கத்திற்குப் பிறகு இயந்திரங்கள் நிறுத்தப்படுகின்றன. ராக்கெட் தொடர்ந்து நகர்கிறது."
+      }
+    },
+    {
+      "id": "ps4-second",
+      "plannedSeconds": "3127.52",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS4: second engine burn",
+        "body": "The fourth stage restarts. This second push shapes the intended Earth orbit."
+      },
+      "ta": {
+        "title": "PS4: இரண்டாம் இயக்கம்",
+        "body": "நான்காம் நிலை மீண்டும் இயக்கப்படுகிறது. இந்த இரண்டாவது உந்துதல் பூமியைச் சுற்றும் இலக்குப் பாதையை அமைக்க உதவுகிறது."
+      }
+    },
+    {
+      "id": "ps4-second-cutoff",
+      "plannedSeconds": "3599.52",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "PS4 finishes",
+        "body": "The engines shut down again. The powered part of the launch is complete."
+      },
+      "ta": {
+        "title": "PS4 பணியை முடிக்கிறது",
+        "body": "இயந்திரங்கள் மீண்டும் நிறுத்தப்படுகின்றன. ஏவுதலின் உந்துதல் பகுதி முடிவடைகிறது."
+      }
+    },
+    {
+      "id": "satellite-separation",
+      "plannedSeconds": "3799.52",
+      "status": "VERIFIED",
+      "source": "isro-flight",
+      "en": {
+        "title": "Aditya-L1 flies free",
+        "body": "The spacecraft separates from the rocket. Its longer journey towards L1 comes next."
+      },
+      "ta": {
+        "title": "ஆதித்யா-L1 தனியே பயணிக்கிறது",
+        "body": "விண்கலம் ராக்கெட்டிலிருந்து பிரிகிறது. L1-ஐ நோக்கிய நீண்ட பயணம் அடுத்து தொடங்குகிறது."
+      }
+    }
+  ],
+  "lagrangePoints": [
+    {
+      "id": "L1",
+      "en": {
+        "title": "A clear view of the Sun",
+        "quick": "Between Earth and the Sun. Aditya-L1 loops around this region to keep watching our star.",
+        "deep": "At L1, the combined gravity of the Sun and Earth lets a spacecraft keep pace with Earth around the Sun. The gravitational pulls do not simply cancel."
+      },
+      "ta": {
+        "title": "சூரியனின் தெளிவான காட்சி",
+        "quick": "பூமிக்கும் சூரியனுக்கும் இடையில் உள்ளது. நம் சூரியனைத் தொடர்ந்து கவனிக்க ஆதித்யா-L1 இந்தப் பகுதியைச் சுற்றுகிறது.",
+        "deep": "L1-இல் சூரியன், பூமி ஆகியவற்றின் கூட்டு ஈர்ப்பு விண்கலம் பூமியுடன் சேர்ந்து சூரியனைச் சுற்ற உதவுகிறது. இரு ஈர்ப்பு விசைகளும் வெறுமனே ஒன்றையொன்று நீக்குவதில்லை."
+      }
+    },
+    {
+      "id": "L2",
+      "en": {
+        "title": "Beyond Earth",
+        "quick": "On the far side of Earth from the Sun. It is a different observing location, not Aditya-L1’s home.",
+        "deep": "Like L1, L2 needs course corrections for spacecraft to stay nearby."
+      },
+      "ta": {
+        "title": "பூமிக்கு அப்பால்",
+        "quick": "சூரியனுக்கு எதிர்ப்புறத்தில் பூமிக்கு அப்பால் உள்ளது. இது வேறு ஒரு கண்காணிப்பு இடம்; ஆதித்யா-L1-ன் இருப்பிடம் அல்ல.",
+        "deep": "L1 போலவே, L2-க்கு அருகில் இருக்கவும் விண்கலங்களுக்குப் பாதைத் திருத்தங்கள் தேவை."
+      }
+    },
+    {
+      "id": "L3",
+      "en": {
+        "title": "Beyond the Sun",
+        "quick": "On the opposite side of the Sun from Earth.",
+        "deep": "L3 lies on the Sun–Earth line and is unstable: a small drift tends to grow. Think of a ball balanced on a ridge."
+      },
+      "ta": {
+        "title": "சூரியனுக்கு அப்பால்",
+        "quick": "பூமிக்கு எதிர்ப்புறத்தில் சூரியனுக்கு அப்பால் உள்ளது.",
+        "deep": "L3 சூரியன்–பூமி வரியில் உள்ளது. இங்கே சிறிய விலகல் பெரிதாகலாம்; ஒரு மேட்டின் உச்சியில் சமநிலையில் இருக்கும் பந்து போல."
+      }
+    },
+    {
+      "id": "L4",
+      "en": {
+        "title": "Ahead of Earth",
+        "quick": "Ahead of Earth in its trip around the Sun.",
+        "deep": "In the ideal Sun–Earth model, L4 makes an equilateral triangle with the Sun and Earth: all three sides are equal. It is more stable than L1, like a marble near the bottom of a bowl."
+      },
+      "ta": {
+        "title": "பூமிக்கு முன்னால்",
+        "quick": "சூரியனைச் சுற்றும் பயணத்தில் பூமிக்கு முன்னால் உள்ளது.",
+        "deep": "எளிய சூரியன்–பூமி மாதிரியில், L4 அவற்றுடன் சமபக்க முக்கோணத்தை உருவாக்குகிறது; மூன்று பக்கங்களும் சமம். L1-ஐவிட இது நிலையானது; கிண்ணத்தின் அடியில் இருக்கும் கோலி போல."
+      }
+    },
+    {
+      "id": "L5",
+      "en": {
+        "title": "Behind Earth",
+        "quick": "Behind Earth in its trip around the Sun.",
+        "deep": "L5 forms the other equilateral triangle. Like L4, it is stable in the ideal Sun–Earth model; real missions still account for other influences."
+      },
+      "ta": {
+        "title": "பூமிக்குப் பின்னால்",
+        "quick": "சூரியனைச் சுற்றும் பயணத்தில் பூமிக்குப் பின்னால் உள்ளது.",
+        "deep": "L5 மற்றொரு சமபக்க முக்கோணத்தை உருவாக்குகிறது. எளிய சூரியன்–பூமி மாதிரியில் L4 போல இதுவும் நிலையானது. உண்மையான பயணங்களில் பிற தாக்கங்களும் கணக்கில் கொள்ளப்படுகின்றன."
+      }
+    }
+  ],
+  "journeyStages": [
+    {
+      "en": {
+        "title": "Raise the orbit",
+        "body": "Engine pushes stretch the path around Earth."
+      },
+      "ta": {
+        "title": "சுற்றுப்பாதையை விரிவாக்குதல்",
+        "body": "இயந்திர உந்துதல்கள் பூமியைச் சுற்றிய பாதையை விரிவாக்குகின்றன."
+      }
+    },
+    {
+      "en": {
+        "title": "Leave Earth’s neighbourhood",
+        "body": "The journey passes beyond Earth’s sphere of influence—an orbital planning boundary, not the end of Earth’s gravity."
+      },
+      "ta": {
+        "title": "பூமியின் அருகாமையைக் கடத்தல்",
+        "body": "பாதை கணக்கிடப் பயன்படுத்தும் பூமியின் செல்வாக்கு எல்லையைக் கடக்கிறது. அந்த எல்லையில் பூமியின் ஈர்ப்பு மறைவதில்லை."
+      }
+    },
+    {
+      "en": {
+        "title": "Cruise towards L1",
+        "body": "The spacecraft travels onward, with small corrections to its path."
+      },
+      "ta": {
+        "title": "L1-ஐ நோக்கிய பயணம்",
+        "body": "சிறிய பாதைத் திருத்தங்களுடன் விண்கலம் தொடர்ந்து பயணிக்கிறது."
+      }
+    },
+    {
+      "en": {
+        "title": "Enter the halo orbit",
+        "body": "An engine manoeuvre guides it into the intended loop near L1."
+      },
+      "ta": {
+        "title": "ஹேலோ சுற்றுப்பாதையில் நுழைதல்",
+        "body": "இயந்திர இயக்கம் விண்கலத்தை L1-க்கு அருகிலுள்ள இலக்கு வளையப் பாதையில் செலுத்துகிறது."
+      }
+    }
+  ],
+  "instruments": [
+    {
+      "id": "VELC",
+      "en": {
+        "title": "The Sun’s hidden outer glow",
+        "quick": "Blocks the bright solar disk to reveal the faint corona—the Sun’s outer atmosphere.",
+        "analogy": "Like covering a bright lamp with your hand to see the faint glow beside it.",
+        "deep": "VELC creates an artificial eclipse inside its optics. It also splits light into wavelengths—like a prism making a rainbow—to study the corona."
+      },
+      "ta": {
+        "title": "சூரியனின் மங்கலான வெளிப்புற ஒளி",
+        "quick": "பிரகாசமான சூரிய வட்டத்தை மறைத்து, அதன் வெளிப்புற வளிமண்டலமான கொரோனாவைக் காண்கிறது.",
+        "analogy": "விளக்கின் அருகிலுள்ள மங்கலான ஒளியைக் காண, பிரகாசமான விளக்கைக் கையால் மறைப்பது போல.",
+        "deep": "VELC தனது ஒளியியல் அமைப்புக்குள் செயற்கைக் கிரகணத்தை உருவாக்குகிறது. பட்டகம் வானவில் உருவாக்குவது போல ஒளியை அலைநீளங்களாகப் பிரித்தும் கொரோனாவை ஆய்வு செய்கிறது."
+      }
+    },
+    {
+      "id": "SUIT",
+      "en": {
+        "title": "Pictures beyond our eyesight",
+        "quick": "Takes pictures of the Sun in near-ultraviolet light, which our eyes cannot see.",
+        "analogy": "Like a camera with a special window onto invisible colours.",
+        "deep": "Ultraviolet, or UV, is light beyond the violet end of the rainbow. SUIT observes the visible surface and a layer above it, called the chromosphere—like examining different layers of an onion."
+      },
+      "ta": {
+        "title": "நம் கண்களுக்கு அப்பாற்பட்ட படங்கள்",
+        "quick": "நம் கண்களுக்குத் தெரியாத அருகுப் புறஊதாக் கதிர்களில் சூரியனைப் படம் எடுக்கிறது.",
+        "analogy": "கண்ணுக்குத் தெரியாத நிறங்களுக்கான சிறப்புச் சாளரமுள்ள கேமரா போல.",
+        "deep": "புறஊதா அல்லது UV என்பது வானவில்லின் ஊதா நிறத்திற்கு அப்பாலுள்ள ஒளி. SUIT சூரியனின் கண்ணுக்குத் தெரியும் பரப்பையும் அதற்கு மேலுள்ள குரோமோஸ்பியர் அடுக்கையும் ஆராய்கிறது; வெங்காயத்தின் வெவ்வேறு அடுக்குகளைப் பார்ப்பது போல."
+      }
+    },
+    {
+      "id": "SoLEXS",
+      "en": {
+        "title": "A softer X-ray signal",
+        "quick": "Measures lower-energy, or soft, X-rays from the Sun.",
+        "analogy": "Like a meter listening to the quieter part of an energetic signal.",
+        "deep": "X-rays are high-energy light, invisible to our eyes. Soft means lower energy, not a soft texture. SoLEXS measures how X-ray output changes, helping researchers study solar flares."
+      },
+      "ta": {
+        "title": "குறைந்த ஆற்றல் X-கதிர்கள்",
+        "quick": "சூரியனின் குறைந்த ஆற்றல் கொண்ட மென் X-கதிர்களை அளக்கிறது.",
+        "analogy": "ஓர் ஆற்றல்மிக்க சமிக்ஞையின் மெதுவான பகுதியைக் கவனிக்கும் அளவுக் கருவி போல.",
+        "deep": "X-கதிர்கள் கண்களுக்குத் தெரியாத உயராற்றல் ஒளி. மென் என்பது குறைந்த ஆற்றலைக் குறிக்கும்; மென்மையான பொருளை அல்ல. X-கதிர் வெளியீட்டின் மாற்றங்களை அளந்து சூரியச் சுடர்வெடிப்புகளை ஆராய SoLEXS உதவுகிறது."
+      }
+    },
+    {
+      "id": "HEL1OS",
+      "en": {
+        "title": "Catching powerful flashes",
+        "quick": "Measures higher-energy, or hard, X-rays to study solar flares.",
+        "analogy": "Like a fast reporter watching for a sudden burst of activity.",
+        "deep": "A solar flare is a sudden release of energy, like a flash. Hard X-rays have higher energy than soft X-rays. HEL1OS helps track this energetic emission."
+      },
+      "ta": {
+        "title": "ஆற்றல்மிக்க ஒளிவெடிப்புகள்",
+        "quick": "சூரியச் சுடர்வெடிப்புகளை ஆராய உயராற்றல் கொண்ட கடின X-கதிர்களை அளக்கிறது.",
+        "analogy": "திடீர் செயல்பாட்டைக் கவனிக்கும் வேகமான செய்தியாளர் போல.",
+        "deep": "சூரியச் சுடர்வெடிப்பு என்பது மின்னல் போலத் திடீரென ஆற்றல் வெளிப்படுவது. கடின X-கதிர்கள் மென் X-கதிர்களைவிட அதிக ஆற்றல் கொண்டவை. இந்த வெளியீட்டைக் கண்காணிக்க HEL1OS உதவுகிறது."
+      }
+    },
+    {
+      "id": "ASPEX",
+      "en": {
+        "title": "Counting passing particles",
+        "quick": "Studies particles in the solar wind passing the spacecraft.",
+        "analogy": "Like a traffic counter that also checks how fast the traffic moves.",
+        "deep": "ASPEX combines particle measurements to study the solar wind. These are local measurements: the instrument samples what reaches the spacecraft, rather than taking a distant photograph."
+      },
+      "ta": {
+        "title": "கடந்து செல்லும் துகள்கள்",
+        "quick": "விண்கலத்தைக் கடக்கும் சூரியக் காற்றுத் துகள்களை ஆராய்கிறது.",
+        "analogy": "வாகனங்களை எண்ணுவதுடன் அவற்றின் வேகத்தையும் கவனிக்கும் போக்குவரத்துக் கருவி போல.",
+        "deep": "சூரியக் காற்றை ஆராய ASPEX துகள் அளவீடுகளை இணைக்கிறது. இது விண்கலத்திற்கு வரும் துகள்களை நேரடியாக அளக்கிறது; தொலைவிலுள்ள ஒன்றைப் படம் எடுப்பதல்ல."
+      }
+    },
+    {
+      "id": "PAPA",
+      "en": {
+        "title": "What is the solar wind made of?",
+        "quick": "Examines charged particles in the solar wind.",
+        "analogy": "Like sorting a mixed bag of beads by their different properties.",
+        "deep": "Charged particles carry an electric charge. PAPA studies their properties and composition. This helps scientists understand the plasma—a gas containing free charged particles—around the spacecraft."
+      },
+      "ta": {
+        "title": "சூரியக் காற்றில் என்ன உள்ளது?",
+        "quick": "சூரியக் காற்றின் மின்சுமை கொண்ட துகள்களை ஆராய்கிறது.",
+        "analogy": "கலந்த மணிகளை அவற்றின் பண்புகளின்படி பிரிப்பது போல.",
+        "deep": "மின்சுமைத் துகள்களுக்கு மின்சாரப் பண்பு உண்டு. PAPA அவற்றின் பண்புகளையும் கலவையையும் ஆராய்கிறது. தனித்த மின்சுமைத் துகள்கள் நிறைந்த வாயுவே பிளாஸ்மா. விண்கலத்தைச் சுற்றிய பிளாஸ்மாவைப் புரிந்துகொள்ள இது உதவுகிறது."
+      }
+    },
+    {
+      "id": "MAG",
+      "en": {
+        "title": "Feeling an invisible field",
+        "quick": "Measures the magnetic field in space.",
+        "analogy": "Like a sensitive compass that measures the field’s strength and direction.",
+        "deep": "A magnetic field is an invisible influence, like the one that turns a compass needle. Sensors on a boom—a long support arm—help measure away from the spacecraft’s own magnetic interference."
+      },
+      "ta": {
+        "title": "கண்ணுக்குத் தெரியாத காந்தப்புலம்",
+        "quick": "விண்வெளியில் உள்ள காந்தப்புலத்தை அளக்கிறது.",
+        "analogy": "காந்தப்புலத்தின் வலிமையையும் திசையையும் அளக்கும் நுண்ணுணர்வுள்ள திசைகாட்டி போல.",
+        "deep": "காந்தப்புலம் என்பது திசைகாட்டி முள்ளைத் திருப்பும் கண்ணுக்குத் தெரியாத தாக்கம் போன்றது. நீண்ட தாங்குக் கம்பியில் உள்ள உணரிகள், விண்கலத்தின் சொந்தக் காந்தத் தாக்கத்திலிருந்து விலகி அளக்க உதவுகின்றன."
+      }
+    }
+  ],
+  "finale": {
+    "en": {
+      "facts": [
+        {
+          "value": "PSLV-C57",
+          "label": "The launch vehicle",
+          "detail": "A four-stage rocket: a relay team handing the spacecraft onward."
+        },
+        {
+          "value": "7",
+          "count": 7,
+          "label": "Scientific payloads",
+          "detail": "Seven tools, each measuring a different part of the Sun’s story."
+        },
+        {
+          "value": "≈1.5 million km",
+          "count": 1.5,
+          "suffix": " million km",
+          "prefix": "≈",
+          "decimals": 1,
+          "label": "From Earth towards the Sun",
+          "detail": "About 1% of the Earth–Sun distance."
+        },
+        {
+          "value": "Halo orbit",
+          "label": "A loop around L1",
+          "detail": "A three-dimensional path around a useful observing region."
+        },
+        {
+          "value": "2 Sept 2023",
+          "label": "Launch day",
+          "detail": "The journey began from Sriharikota, India."
+        },
+        {
+          "value": "1,480.7 kg",
+          "count": 1480.7,
+          "decimals": 1,
+          "suffix": " kg",
+          "label": "Spacecraft mass at launch",
+          "detail": "The value specified in ISRO’s PSLV-C57 mission brochure."
+        }
+      ],
+      "questions": [
+        {
+          "question": "What does Aditya-L1 study?",
+          "options": [
+            "The Sun",
+            "The Moon",
+            "The ocean"
+          ],
+          "answer": 0,
+          "explanation": "Aditya-L1 observes the Sun and measures its surroundings in space."
+        },
+        {
+          "question": "Where does Aditya-L1 observe from?",
+          "options": [
+            "On the Sun’s surface",
+            "A halo orbit around Sun–Earth L1",
+            "A runway on Earth"
+          ],
+          "answer": 1,
+          "explanation": "It loops around L1, about 1.5 million km from Earth towards the Sun."
+        },
+        {
+          "question": "Why put an X-ray instrument in space?",
+          "options": [
+            "Space makes every object bigger",
+            "Earth’s air blocks solar X-rays",
+            "X-rays exist only at night"
+          ],
+          "answer": 1,
+          "explanation": "Our atmosphere absorbs solar X-rays, so these detectors work above it."
+        },
+        {
+          "question": "Which instrument creates an artificial eclipse?",
+          "options": [
+            "MAG",
+            "PAPA",
+            "VELC"
+          ],
+          "answer": 2,
+          "explanation": "VELC hides the bright solar disk to study the faint corona, the Sun’s outer atmosphere."
+        },
+        {
+          "question": "Why are small orbit corrections needed?",
+          "options": [
+            "L1 is unstable, like a pencil balanced on a fingertip",
+            "The Sun switches off each night",
+            "The spacecraft must land every week"
+          ],
+          "answer": 0,
+          "explanation": "Small drift grows near L1. Carefully timed engine firings keep the spacecraft near its planned path."
+        },
+        {
+          "question": "What does “space weather” help us understand?",
+          "options": [
+            "Rain inside a rocket",
+            "Changes caused by solar activity that can affect technology",
+            "Clouds on the Moon"
+          ],
+          "answer": 1,
+          "explanation": "Solar activity can disturb satellites, navigation, some radio links and power grids."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Will it go to the Sun?",
+          "quick": "No. It observes from a halo orbit around L1, far from the Sun’s surface.",
+          "analogy": "Think of a lookout watching a mountain from a safe viewpoint.",
+          "deep": "L1 is about 1% of the way from Earth to the Sun. Aditya-L1 is an observatory, not a solar landing mission."
+        },
+        {
+          "question": "Why not go closer?",
+          "quick": "L1 gives a steady view of the Sun for this mission’s science.",
+          "analogy": "A good viewing seat can matter more than the closest seat.",
+          "deep": "Different missions choose different orbits. Going closer demands different heat protection and mission design. Aditya-L1 combines remote views of the Sun with measurements of particles and fields near the spacecraft."
+        },
+        {
+          "question": "Is it dangerous for Earth?",
+          "quick": "The spacecraft observes the Sun. It does not create solar storms or change the Sun.",
+          "analogy": "A weather station measures a storm; it does not make one.",
+          "deep": "Solar storms are natural events. Aditya-L1 helps researchers understand them; it cannot stop them."
+        },
+        {
+          "question": "Can we see it?",
+          "quick": "You cannot see Aditya-L1 with your unaided eyes from Earth.",
+          "analogy": "A tiny object very far away becomes too faint to spot.",
+          "deep": "It is a small spacecraft about 1.5 million km away. The model here is enlarged and the scene is not to scale."
+        },
+        {
+          "question": "How is it different from Chandrayaan?",
+          "quick": "Chandrayaan explores the Moon. Aditya-L1 studies the Sun.",
+          "analogy": "Two explorers carry different toolkits for different destinations.",
+          "deep": "Chandrayaan missions investigate our Moon. Aditya-L1 studies solar light, particles and magnetic fields from its orbit near L1."
+        },
+        {
+          "question": "Does it take pictures I can see?",
+          "quick": "Yes. ISRO publishes selected solar images, including images from SUIT.",
+          "analogy": "Special-light cameras reveal details that ordinary eyes miss.",
+          "deep": "Ultraviolet light is invisible to our eyes. Scientists display these measurements as images, often using colours to show features. The official link below needs an internet connection."
+        }
+      ],
+      "ui": {
+        "question": "Question {n} of {total}",
+        "correct": "Correct!",
+        "incorrect": "Good try.",
+        "next": "Next question",
+        "finish": "See my score",
+        "restart": "Try again",
+        "score": "You scored {score} / {total}",
+        "perfect": "Seven eyes. One curious explorer. Brilliant work!",
+        "encourage": "Keep exploring. Every question is a new discovery.",
+        "share": "Share result",
+        "download": "Download score card",
+        "copy": "Copy result",
+        "copied": "Result copied.",
+        "shareFailed": "Sharing is unavailable. Copy the result text below.",
+        "shareText": "I scored {score}/{total} on the Aditya-L1 quiz at Workshop 42 — ISRO Expo!",
+        "shareLabel": "Your result to share",
+        "images": "See ISRO’s solar images",
+        "footer": "Workshop 42 — ISRO Expo",
+        "credit": "Science source: Indian Space Research Organisation (ISRO). Additional explanations reference NASA. Independent educational exhibit; not an official ISRO website.",
+        "collegeLogo": "COLLEGE LOGO PLACEHOLDER",
+        "isroLogo": "ISRO LOGO PLACEHOLDER",
+        "logoNote": "Insert authorised logo files here. No official logo has been recreated.",
+        "sources": "Mission sources",
+        "home": "Back to the Sun",
+        "kioskPlaying": "Expo story playing · touch or press a key to explore",
+        "kioskPaused": "Your turn · story resets after 60 idle seconds",
+        "kioskReduced": "Reduced motion · automatic scrolling is off",
+        "resume": "Restart expo story",
+        "pause": "Pause story",
+        "simple": "Use 2D view",
+        "rich": "Use 3D view",
+        "visualLabel": "Visual mode",
+        "kioskCaption": "{chapter} · {title}",
+        "downloadName": "aditya-l1-score.txt",
+        "sourceLabels": [
+          "ISRO mission overview",
+          "ISRO launch brochure",
+          "ISRO solar images"
+        ],
+        "offlinePreparing": "Preparing this visit for offline use…",
+        "offlineReady": "Ready for offline use on this browser.",
+        "offlineUpdate": "An update is ready. Close all tabs of this site and reopen while online.",
+        "offlineUnavailable": "Offline browser caching is unavailable. Use the local expo server without internet.",
+        "offlineDev": "Development preview. Build the site to enable offline browser caching.",
+        "collegeLogoAlt": "College logo",
+        "isroLogoAlt": "ISRO logo"
+      }
+    },
+    "ta": {
+      "facts": [
+        {
+          "value": "PSLV-C57",
+          "label": "ஏவுகலம்",
+          "detail": "நான்கு நிலை ராக்கெட். தொடர் ஓட்ட வீரர்களைப் போலப் பொறுப்பை அடுத்த நிலைக்கு வழங்குகிறது."
+        },
+        {
+          "value": "7",
+          "count": 7,
+          "label": "அறிவியல் கருவிகள்",
+          "detail": "சூரியனின் கதையை வெவ்வேறு வழிகளில் அளக்கும் ஏழு கருவிகள்."
+        },
+        {
+          "value": "≈15 லட்சம் கி.மீ.",
+          "count": 15,
+          "suffix": " லட்சம் கி.மீ.",
+          "prefix": "≈",
+          "label": "பூமியிலிருந்து சூரியன் நோக்கி",
+          "detail": "பூமி–சூரியன் தூரத்தில் சுமார் 1%."
+        },
+        {
+          "value": "வளையப் பாதை",
+          "label": "L1-ஐச் சுற்றி ஒரு வட்டமிடல்",
+          "detail": "ஆய்வுக்கு ஏற்ற பகுதியைச் சுற்றிய முப்பரிமாணப் பாதை."
+        },
+        {
+          "value": "2 செப். 2023",
+          "label": "ஏவப்பட்ட நாள்",
+          "detail": "இந்தியாவின் ஸ்ரீஹரிகோட்டாவில் பயணம் தொடங்கியது."
+        },
+        {
+          "value": "1,480.7 கிலோ",
+          "count": 1480.7,
+          "decimals": 1,
+          "suffix": " கிலோ",
+          "label": "ஏவும்போதைய விண்கல நிறை",
+          "detail": "ISRO-வின் PSLV-C57 திட்டக் கையேட்டில் குறிப்பிடப்பட்ட அளவு."
+        }
+      ],
+      "questions": [
+        {
+          "question": "ஆதித்யா-L1 எதை ஆய்வு செய்கிறது?",
+          "options": [
+            "சூரியன்",
+            "நிலா",
+            "கடல்"
+          ],
+          "answer": 0,
+          "explanation": "ஆதித்யா-L1 சூரியனைக் கவனித்து அருகிலுள்ள விண்வெளிச் சூழலையும் அளக்கிறது."
+        },
+        {
+          "question": "ஆதித்யா-L1 எங்கிருந்து ஆய்வு செய்கிறது?",
+          "options": [
+            "சூரியனின் மேற்பரப்பில்",
+            "சூரியன்–பூமி L1-ஐச் சுற்றிய வளையப் பாதையில்",
+            "பூமியில் ஒரு ஓடுபாதையில்"
+          ],
+          "answer": 1,
+          "explanation": "பூமியிலிருந்து சூரியன் நோக்கிச் சுமார் 15 லட்சம் கி.மீ. தொலைவிலுள்ள L1-ஐச் சுற்றுகிறது."
+        },
+        {
+          "question": "எக்ஸ்-கதிர் கருவியை ஏன் விண்வெளியில் வைக்க வேண்டும்?",
+          "options": [
+            "விண்வெளியில் அனைத்தும் பெரிதாகும்",
+            "பூமியின் காற்று சூரிய எக்ஸ்-கதிர்களைத் தடுக்கிறது",
+            "இரவில் மட்டுமே எக்ஸ்-கதிர்கள் உண்டு"
+          ],
+          "answer": 1,
+          "explanation": "நமது வளிமண்டலம் சூரிய எக்ஸ்-கதிர்களை உறிஞ்சுகிறது. அதற்கு மேலே இந்தக் கருவிகள் இயங்க வேண்டும்."
+        },
+        {
+          "question": "செயற்கைக் கிரகணத்தை உருவாக்கும் கருவி எது?",
+          "options": [
+            "MAG",
+            "PAPA",
+            "VELC"
+          ],
+          "answer": 2,
+          "explanation": "VELC பிரகாசமான சூரிய வட்டை மறைத்து, அதன் மங்கலான வெளி வளிமண்டலமான கொரோனாவை ஆய்வு செய்கிறது."
+        },
+        {
+          "question": "சிறிய பாதைத் திருத்தங்கள் ஏன் தேவை?",
+          "options": [
+            "விரலில் நிற்கும் பென்சிலைப் போல L1 நிலையற்றது",
+            "ஒவ்வோர் இரவும் சூரியன் அணைந்துவிடும்",
+            "விண்கலம் வாரந்தோறும் தரையிறங்க வேண்டும்"
+          ],
+          "answer": 0,
+          "explanation": "L1 அருகே சிறிய விலகல் பெரிதாகலாம். சரியான நேரத்தில் இயந்திரத்தை இயக்கிப் பாதையைத் திருத்துகிறார்கள்."
+        },
+        {
+          "question": "விண்வெளி வானிலை எதைப் புரிந்துகொள்ள உதவும்?",
+          "options": [
+            "ராக்கெட்டிற்குள் மழை",
+            "தொழில்நுட்பத்தைப் பாதிக்கக்கூடிய சூரியச் செயல்பாடுகள்",
+            "நிலாவில் மேகங்கள்"
+          ],
+          "answer": 1,
+          "explanation": "சூரியச் செயல்பாடுகள் செயற்கைக்கோள்கள், வழிகாட்டுதல், சில வானொலி இணைப்புகள் மற்றும் மின்வலையங்களைப் பாதிக்கலாம்."
+        }
+      ],
+      "faq": [
+        {
+          "question": "அது சூரியனுக்குச் செல்லுமா?",
+          "quick": "இல்லை. சூரியனின் மேற்பரப்பிலிருந்து வெகு தொலைவில், L1-ஐச் சுற்றிய வளையப் பாதையில் இருந்து ஆய்வு செய்கிறது.",
+          "analogy": "தொலைவில் உள்ள பாதுகாப்பான இடத்திலிருந்து மலையைக் கவனிப்பது போன்றது.",
+          "deep": "பூமியிலிருந்து சூரியன் செல்லும் தூரத்தில் சுமார் 1% இடத்தில் L1 உள்ளது. ஆதித்யா-L1 ஒரு ஆய்வுக்கூடம்; சூரியனில் தரையிறங்கும் திட்டம் அல்ல."
+        },
+        {
+          "question": "ஏன் இன்னும் அருகில் செல்லவில்லை?",
+          "quick": "இந்த ஆய்வுக்கு L1-இலிருந்து சூரியனைத் தொடர்ந்து பார்க்க முடியும்.",
+          "analogy": "மிக அருகில் அமர்வதைவிட நன்றாகத் தெரியும் இடத்தில் அமர்வது பயனுள்ளதாக இருக்கலாம்.",
+          "deep": "ஒவ்வொரு திட்டமும் அதன் நோக்கத்திற்கு ஏற்ற பாதையைத் தேர்ந்தெடுக்கும். அருகில் செல்ல வேறுபட்ட வெப்பப் பாதுகாப்பு தேவை. ஆதித்யா-L1 சூரியனைப் படம் பிடிப்பதுடன், தன் அருகிலுள்ள துகள்களையும் காந்தப் புலத்தையும் அளக்கிறது."
+        },
+        {
+          "question": "பூமிக்கு ஆபத்தா?",
+          "quick": "இது சூரியனைக் கவனிக்கிறது. சூரியப் புயல்களை உருவாக்கவோ சூரியனை மாற்றவோ செய்யாது.",
+          "analogy": "வானிலை நிலையம் புயலை அளக்கும்; அதை உருவாக்காது.",
+          "deep": "சூரியப் புயல்கள் இயற்கையானவை. அவற்றைப் புரிந்துகொள்ள ஆதித்யா-L1 உதவும்; அவற்றை நிறுத்தாது."
+        },
+        {
+          "question": "அதை நம்மால் பார்க்க முடியுமா?",
+          "quick": "பூமியிலிருந்து வெறும் கண்களால் ஆதித்யா-L1-ஐப் பார்க்க முடியாது.",
+          "analogy": "மிகத் தொலைவில் உள்ள சிறிய பொருள் கண்களுக்குத் தெரியாத அளவு மங்கலாகும்.",
+          "deep": "சிறிய விண்கலம் சுமார் 15 லட்சம் கி.மீ. தொலைவில் உள்ளது. இங்குள்ள மாதிரி பெரிதாக்கப்பட்டுள்ளது; காட்சி உண்மையான அளவுவிகிதத்தில் இல்லை."
+        },
+        {
+          "question": "சந்திரயானிலிருந்து இது எப்படி வேறுபடுகிறது?",
+          "quick": "சந்திரயான் நிலாவை ஆய்வு செய்கிறது. ஆதித்யா-L1 சூரியனை ஆய்வு செய்கிறது.",
+          "analogy": "வெவ்வேறு இடங்களுக்குச் செல்லும் ஆய்வாளர்கள் வெவ்வேறு கருவிகளை எடுத்துச் செல்வது போன்றது.",
+          "deep": "சந்திரயான் திட்டங்கள் நிலாவை ஆராய்கின்றன. ஆதித்யா-L1 சூரிய ஒளி, துகள்கள், காந்தப் புலங்களை L1 அருகிலிருந்து ஆய்வு செய்கிறது."
+        },
+        {
+          "question": "நான் பார்க்கக்கூடிய படங்களை எடுக்குமா?",
+          "quick": "ஆம். SUIT எடுத்த படங்கள் உட்படத் தேர்ந்தெடுத்த சூரியப் படங்களை ISRO வெளியிடுகிறது.",
+          "analogy": "சிறப்பு ஒளிக் கேமராக்கள் சாதாரணக் கண்களுக்குத் தெரியாத விவரங்களைக் காட்டுகின்றன.",
+          "deep": "புறஊதா ஒளியை நமது கண்களால் பார்க்க முடியாது. விஞ்ஞானிகள் அளவீடுகளைப் படங்களாக மாற்றுகிறார்கள். அம்சங்களை விளக்க வண்ணங்களையும் பயன்படுத்தலாம். கீழுள்ள அதிகாரப்பூர்வ இணைப்புக்கு இணையம் தேவை."
+        }
+      ],
+      "ui": {
+        "question": "கேள்வி {n} / {total}",
+        "correct": "சரியான பதில்!",
+        "incorrect": "நல்ல முயற்சி.",
+        "next": "அடுத்த கேள்வி",
+        "finish": "மதிப்பெண்ணைப் பார்",
+        "restart": "மீண்டும் முயற்சி",
+        "score": "உங்கள் மதிப்பெண் {score} / {total}",
+        "perfect": "ஏழு கண்கள். ஓர் ஆர்வமுள்ள ஆய்வாளர். அருமை!",
+        "encourage": "தொடர்ந்து ஆராயுங்கள். ஒவ்வொரு கேள்வியும் ஒரு புதிய கண்டுபிடிப்பு.",
+        "share": "பகிர்",
+        "download": "மதிப்பெண் அட்டையைப் பதிவிறக்கு",
+        "copy": "பதிலை நகலெடு",
+        "copied": "முடிவு நகலெடுக்கப்பட்டது.",
+        "shareFailed": "பகிர்வு கிடைக்கவில்லை. கீழுள்ள முடிவை நகலெடுக்கவும்.",
+        "shareText": "Workshop 42 — ISRO Expo ஆதித்யா-L1 வினாடி வினாவில் நான் {score}/{total} பெற்றேன்!",
+        "shareLabel": "பகிர்வதற்கான உங்கள் முடிவு",
+        "images": "ISRO-வின் சூரியப் படங்களைப் பார்",
+        "footer": "Workshop 42 — ISRO Expo",
+        "credit": "அறிவியல் தகவல்: இந்திய விண்வெளி ஆய்வு நிறுவனம் (ISRO). கூடுதல் விளக்கங்களுக்கு NASA ஆதாரங்கள். இது தனித்த கல்விக் கண்காட்சி; அதிகாரப்பூர்வ ISRO இணையதளம் அல்ல.",
+        "collegeLogo": "கல்லூரி இலச்சினைக்கான இடம்",
+        "isroLogo": "ISRO இலச்சினைக்கான இடம்",
+        "logoNote": "அனுமதி பெற்ற இலச்சினைக் கோப்புகளை இங்கே சேர்க்கவும். அதிகாரப்பூர்வ இலச்சினைகள் மீண்டும் உருவாக்கப்படவில்லை.",
+        "sources": "திட்ட ஆதாரங்கள்",
+        "home": "சூரியனுக்குத் திரும்பு",
+        "kioskPlaying": "கண்காட்சிக் கதை இயங்குகிறது · தொடவும் அல்லது விசையை அழுத்தவும்",
+        "kioskPaused": "உங்கள் முறை · 60 நொடிகள் செயல்பாடின்றி இருந்தால் கதை மீண்டும் தொடங்கும்",
+        "kioskReduced": "குறைந்த இயக்கம் · தானியக்க நகர்வு நிறுத்தப்பட்டுள்ளது",
+        "resume": "கண்காட்சிக் கதையை மீண்டும் தொடங்கு",
+        "pause": "கதையை நிறுத்து",
+        "simple": "2D காட்சியைப் பயன்படுத்து",
+        "rich": "3D காட்சியைப் பயன்படுத்து",
+        "visualLabel": "காட்சி முறை",
+        "kioskCaption": "{chapter} · {title}",
+        "downloadName": "aditya-l1-score.txt",
+        "sourceLabels": [
+          "ISRO திட்ட அறிமுகம்",
+          "ISRO ஏவுதல் கையேடு",
+          "ISRO சூரியப் படங்கள்"
+        ],
+        "offlinePreparing": "இணையமின்றிப் பயன்படுத்த இந்தப் பக்கம் தயாராகிறது…",
+        "offlineReady": "இந்த உலாவியில் இணையமின்றிப் பயன்படுத்தத் தயார்.",
+        "offlineUpdate": "புதுப்பிப்பு தயார். இந்தத் தளத்தின் எல்லாத் தாவல்களையும் மூடி, இணையத்துடன் மீண்டும் திறக்கவும்.",
+        "offlineUnavailable": "உலாவியின் இணையமில்லாச் சேமிப்பு கிடைக்கவில்லை. உள்ளூர் கண்காட்சி சேவையகத்தை இணையமின்றிப் பயன்படுத்தலாம்.",
+        "offlineDev": "உருவாக்க முன்னோட்டம். இணையமில்லாச் சேமிப்பை இயக்கத் தளத்தை build செய்யவும்.",
+        "collegeLogoAlt": "கல்லூரி இலச்சினை",
+        "isroLogoAlt": "ISRO இலச்சினை"
+      }
+    }
+  },
+  "branding": {
+    "collegeLogo": "",
+    "isroLogo": ""
+  }
+}
